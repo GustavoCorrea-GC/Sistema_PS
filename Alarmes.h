@@ -7,7 +7,6 @@ typedef struct {            //Tipo de dado Alarme_t
     int Num_Ativo;
     int Data;
     char Descricao[256];
-    struct Alarmes_t *proximo;
     
 } Alarme_t;
 

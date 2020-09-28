@@ -21,6 +21,7 @@ int CreateEquipamento(Equipamento_t E);
 int ReadEquipamento(int N_Serie, Equipamento_t *E);
 int UpdateEquipamento(Equipamento_t E);
 int DeleteEquipamento(int N_Serie);
+int GetInt(int *i, char *linha);
 void Limpar_buffer(char *buf);
 void String2Equipamento_t(char *linha, Equipamento_t *Equip);
 /*-----------------FUNÇÕES AUXILIARES---------------------------*/
@@ -30,21 +31,24 @@ void Limpar_buffer(char *buf){
         buf[i]=0;
     }
 }
+int GetInt(int *i, char *linha){
+    int j=0;
+    char buffer[INT_MAX];
+    Limpar_buffer(buffer);
+    while(linha[*i]!='\t'){
+        buffer[j] =linha[*i];
+        *i=*i+1;
+        j++;
+    }
+    *i=*i+1;
+    return atoi(buffer);
+}
 void String2Equipamento_t(char *linha, Equipamento_t *Equip){
     int j=0,i=0;
-    char bufferINT[INT_MAX];
     char bufferNome[NOME_MAX];
     char bufferDesc[DESC_MAX];
 
-    while(linha[i]!='\t'){//Le os Numeros de Serie
-        bufferINT[j] =linha[i];
-        i++;
-        j++;
-    }
-    Equip->N_Serie=atoi(bufferINT);
-    Limpar_buffer(bufferINT);
-    j=0;
-    i++;
+    Equip->N_Serie=GetInt(&i,linha);
     while(linha[i]!='\t'){//Le os nomes
         bufferNome[j] =linha[i];
         i++;
@@ -54,42 +58,10 @@ void String2Equipamento_t(char *linha, Equipamento_t *Equip){
     strcpy(Equip->Nome, bufferNome);
     j=0;
     i++;
-    while(linha[i]!='\t'){//Le os Tipos
-        bufferINT[j] =linha[i];
-        i++;
-        j++;
-    }
-    Equip->Tipo=atoi(bufferINT);
-    Limpar_buffer(bufferINT);
-    j=0;
-    i++;
-    while(linha[i]!='\t'){//Le os dias
-        bufferINT[j] =linha[i];
-        i++;
-        j++;
-    }
-    Equip->Data.Dia=atoi(bufferINT);
-    Limpar_buffer(bufferINT);
-    j=0;
-    i++;
-    while(linha[i]!='\t'){//Le os Meses
-        bufferINT[j] =linha[i];
-        i++;
-        j++;
-    }
-    Equip->Data.Mes=atoi(bufferINT);
-    Limpar_buffer(bufferINT);
-    j=0;
-    i++;
-    while(linha[i]!='\t'){//Le os anos
-        bufferINT[j] =linha[i];
-        i++;
-        j++;
-    }
-    Equip->Data.Ano=atoi(bufferINT);
-    Limpar_buffer(bufferINT);
-    j=0;
-    i++;
+    Equip->Tipo=GetInt(&i,linha);
+    Equip->Data.Dia=GetInt(&i,linha);
+    Equip->Data.Mes=GetInt(&i,linha);
+    Equip->Data.Ano=GetInt(&i,linha);
     while(linha[i]!='\n'){//Le as descrições
         bufferDesc[j] =linha[i];
         i++;
@@ -108,7 +80,7 @@ int CreateEquipamento(Equipamento_t E){
     }
     else{    
         fp=fopen(EQUIP_FILE, "a");
-        fprintf(fp,"%s\t%d\t%d\t%d\t%d\t%d\t%s\n",E.Nome,E.N_Serie,E.Tipo,E.Data.Dia,E.Data.Mes,E.Data.Ano,E.Descricao );
+        fprintf(fp,"%d\t%s\t%d\t%d\t%d\t%d\t%s\n",E.N_Serie,E.Nome,E.Tipo,E.Data.Dia,E.Data.Mes,E.Data.Ano,E.Descricao );
         fclose(fp);
         return TRUE;
     }
@@ -135,7 +107,8 @@ int ReadEquipamento(int N_Serie, Equipamento_t *E){
     return FALSE;
 }
 int UpdateEquipamento(Equipamento_t E){
-    if(ReadEquipamento(E.N_Serie,&E)==FALSE){
+    Equipamento_t Aux;
+    if(ReadEquipamento(E.N_Serie,&Aux)==FALSE){
         printf("Número de serie não existente.");
         return FALSE;
     }
@@ -171,7 +144,7 @@ int DeleteEquipamento(int N_Serie){
         fpTemp=fopen(TEMP, "w");
         while (!feof(fp)){//Escreve em um arquivo temporario todas as linhas menos a que desejamos ser removida.
             fgets(linha, BYTES_MAX,fp);
-            if(strcmp(linha, linhaAUX)!=0){
+            if((strcmp(linha, linhaAUX)!=0)&&(!feof(fp))){
                 fprintf(fpTemp, "%s",linha);
             }
         }

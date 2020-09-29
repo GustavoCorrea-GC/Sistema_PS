@@ -1,0 +1,18 @@
+digraph "DeleteAlarme"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="DeleteAlarme",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Remover_Alarme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interface_8h.html#ab23e81c6482825f64c8bdfe510ce539b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="UpdateAlarme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_alarmes_8h.html#a935fde5a6fbc72e946c9a8199468d080",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Ativar_Alarmes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interface_8h.html#a2f6f0cff496d5de99728095bcb99fecf",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Atualiza_Alarme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interface_8h.html#ae3e37e58cf3e6e35070f661231d743e2",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Desativar_Alarmes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interface_8h.html#aada3e1b361195dfccd11556ab395e5c7",tooltip=" "];
+}

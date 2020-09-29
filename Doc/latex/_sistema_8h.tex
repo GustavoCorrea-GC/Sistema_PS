@@ -1,0 +1,198 @@
+\hypertarget{_sistema_8h}{}\doxysection{Sistema.\+h File Reference}
+\label{_sistema_8h}\index{Sistema.h@{Sistema.h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{struct_data__t}{Data\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Tipo de dados para datas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_ac3e01404712ee1d7a6d201a3a4ac4663}{B\+Y\+T\+E\+S\+\_\+\+M\+AX}}~512
+\begin{DoxyCompactList}\small\item\em Tamanho maximo dos buffers. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_sistema_8h_a9ec306f36d50c7375e74f0d1c55a3a67}{I\+N\+T\+\_\+\+M\+AX}}~10
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_abc6b74d6b9a0ab08df3c92daec7851db}{N\+O\+M\+E\+\_\+\+M\+AX}}~128
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_a0063109fe256a6f3dfcb624e96013554}{D\+E\+S\+C\+\_\+\+M\+AX}}~256
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_aa8cecfc5c5c054d2875c03e77b7be15d}{T\+R\+UE}}~0
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_aa93f0eb578d23995850d61f7d61c55c1}{F\+A\+L\+SE}}~1
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_a43fe373ddf5159add8fb2983bf003fc1}{E\+Q\+U\+I\+P\+\_\+\+F\+I\+LE}}~\char`\"{}Equipamentos.\+tsv\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_a0b136d22c7e5c97c9454d5230361b82a}{A\+L\+A\+R\+M\+E\+\_\+\+F\+I\+LE}}~\char`\"{}Alarmes.\+tsv\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_sistema_8h_a10bed19ceedeb2c12c5aad6de1d3b1a1}{T\+E\+MP}}~\char`\"{}Temporario.\+temp\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int \mbox{\hyperlink{_sistema_8h_a1062901a7428fdd9c7f180f5e01ea056}{bool}}
+\item 
+typedef struct \mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}} \mbox{\hyperlink{_sistema_8h_a65434b2d8122a3cea43a2407c2789c9c}{Str\+Alarm\+\_\+t}}
+\item 
+typedef struct \mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}} \mbox{\hyperlink{_sistema_8h_ad7d32471bd8eaa49dfd09accbe0c1ce4}{Int\+Alarm\+\_\+t}}
+\item 
+typedef struct \mbox{\hyperlink{struct_data__t}{Data\+\_\+t}} \mbox{\hyperlink{_sistema_8h_aece6b12e16f2970573441810b44f5e05}{Data\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Tipo de dados para datas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \mbox{\hyperlink{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba5f504b4e3d4d75d14b4c8f8b89b85ac0}{A\+L\+TA}} = 1, 
+\mbox{\hyperlink{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba3eb0b3c78d811b28fdb69a414c0881b8}{M\+E\+D\+IA}}, 
+\mbox{\hyperlink{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba24a91d93586fd9660bf7d7f23620f144}{B\+A\+I\+XA}}
+ \}
+\item 
+enum \{ \mbox{\hyperlink{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a5dc5876b3ae7e05b0e636988d0c1caac}{T\+E\+N\+S\+AO}} = 1, 
+\mbox{\hyperlink{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a1bcaa6a8013d8d242de63d6c288e7bf4}{C\+O\+R\+R\+E\+N\+TE}}, 
+\mbox{\hyperlink{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a00d8cd5d6d78a5c2f8c57c4d6a335b85}{O\+L\+EO}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Gustavo Correa 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020-\/09-\/26 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_sistema_8h_a0b136d22c7e5c97c9454d5230361b82a}\label{_sistema_8h_a0b136d22c7e5c97c9454d5230361b82a}} 
+\index{Sistema.h@{Sistema.h}!ALARME\_FILE@{ALARME\_FILE}}
+\index{ALARME\_FILE@{ALARME\_FILE}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{ALARME\_FILE}{ALARME\_FILE}}
+{\footnotesize\ttfamily \#define A\+L\+A\+R\+M\+E\+\_\+\+F\+I\+LE~\char`\"{}Alarmes.\+tsv\char`\"{}}
+
+\mbox{\Hypertarget{_sistema_8h_ac3e01404712ee1d7a6d201a3a4ac4663}\label{_sistema_8h_ac3e01404712ee1d7a6d201a3a4ac4663}} 
+\index{Sistema.h@{Sistema.h}!BYTES\_MAX@{BYTES\_MAX}}
+\index{BYTES\_MAX@{BYTES\_MAX}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{BYTES\_MAX}{BYTES\_MAX}}
+{\footnotesize\ttfamily \#define B\+Y\+T\+E\+S\+\_\+\+M\+AX~512}
+
+
+
+Tamanho maximo dos buffers. 
+
+\mbox{\Hypertarget{_sistema_8h_a0063109fe256a6f3dfcb624e96013554}\label{_sistema_8h_a0063109fe256a6f3dfcb624e96013554}} 
+\index{Sistema.h@{Sistema.h}!DESC\_MAX@{DESC\_MAX}}
+\index{DESC\_MAX@{DESC\_MAX}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{DESC\_MAX}{DESC\_MAX}}
+{\footnotesize\ttfamily \#define D\+E\+S\+C\+\_\+\+M\+AX~256}
+
+\mbox{\Hypertarget{_sistema_8h_a43fe373ddf5159add8fb2983bf003fc1}\label{_sistema_8h_a43fe373ddf5159add8fb2983bf003fc1}} 
+\index{Sistema.h@{Sistema.h}!EQUIP\_FILE@{EQUIP\_FILE}}
+\index{EQUIP\_FILE@{EQUIP\_FILE}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{EQUIP\_FILE}{EQUIP\_FILE}}
+{\footnotesize\ttfamily \#define E\+Q\+U\+I\+P\+\_\+\+F\+I\+LE~\char`\"{}Equipamentos.\+tsv\char`\"{}}
+
+\mbox{\Hypertarget{_sistema_8h_aa93f0eb578d23995850d61f7d61c55c1}\label{_sistema_8h_aa93f0eb578d23995850d61f7d61c55c1}} 
+\index{Sistema.h@{Sistema.h}!FALSE@{FALSE}}
+\index{FALSE@{FALSE}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{FALSE}{FALSE}}
+{\footnotesize\ttfamily \#define F\+A\+L\+SE~1}
+
+\mbox{\Hypertarget{_sistema_8h_a9ec306f36d50c7375e74f0d1c55a3a67}\label{_sistema_8h_a9ec306f36d50c7375e74f0d1c55a3a67}} 
+\index{Sistema.h@{Sistema.h}!INT\_MAX@{INT\_MAX}}
+\index{INT\_MAX@{INT\_MAX}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{INT\_MAX}{INT\_MAX}}
+{\footnotesize\ttfamily \#define I\+N\+T\+\_\+\+M\+AX~10}
+
+\mbox{\Hypertarget{_sistema_8h_abc6b74d6b9a0ab08df3c92daec7851db}\label{_sistema_8h_abc6b74d6b9a0ab08df3c92daec7851db}} 
+\index{Sistema.h@{Sistema.h}!NOME\_MAX@{NOME\_MAX}}
+\index{NOME\_MAX@{NOME\_MAX}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{NOME\_MAX}{NOME\_MAX}}
+{\footnotesize\ttfamily \#define N\+O\+M\+E\+\_\+\+M\+AX~128}
+
+\mbox{\Hypertarget{_sistema_8h_a10bed19ceedeb2c12c5aad6de1d3b1a1}\label{_sistema_8h_a10bed19ceedeb2c12c5aad6de1d3b1a1}} 
+\index{Sistema.h@{Sistema.h}!TEMP@{TEMP}}
+\index{TEMP@{TEMP}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{TEMP}{TEMP}}
+{\footnotesize\ttfamily \#define T\+E\+MP~\char`\"{}Temporario.\+temp\char`\"{}}
+
+\mbox{\Hypertarget{_sistema_8h_aa8cecfc5c5c054d2875c03e77b7be15d}\label{_sistema_8h_aa8cecfc5c5c054d2875c03e77b7be15d}} 
+\index{Sistema.h@{Sistema.h}!TRUE@{TRUE}}
+\index{TRUE@{TRUE}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{TRUE}{TRUE}}
+{\footnotesize\ttfamily \#define T\+R\+UE~0}
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_sistema_8h_a1062901a7428fdd9c7f180f5e01ea056}\label{_sistema_8h_a1062901a7428fdd9c7f180f5e01ea056}} 
+\index{Sistema.h@{Sistema.h}!bool@{bool}}
+\index{bool@{bool}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{bool}{bool}}
+{\footnotesize\ttfamily typedef int \mbox{\hyperlink{_sistema_8h_a1062901a7428fdd9c7f180f5e01ea056}{bool}}}
+
+\mbox{\Hypertarget{_sistema_8h_aece6b12e16f2970573441810b44f5e05}\label{_sistema_8h_aece6b12e16f2970573441810b44f5e05}} 
+\index{Sistema.h@{Sistema.h}!Data\_t@{Data\_t}}
+\index{Data\_t@{Data\_t}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{Data\_t}{Data\_t}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_data__t}{Data\+\_\+t}} \mbox{\hyperlink{struct_data__t}{Data\+\_\+t}}}
+
+
+
+Tipo de dados para datas. 
+
+T\+O\+DO\+: Utilizar a time.\+h \mbox{\Hypertarget{_sistema_8h_ad7d32471bd8eaa49dfd09accbe0c1ce4}\label{_sistema_8h_ad7d32471bd8eaa49dfd09accbe0c1ce4}} 
+\index{Sistema.h@{Sistema.h}!IntAlarm\_t@{IntAlarm\_t}}
+\index{IntAlarm\_t@{IntAlarm\_t}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{IntAlarm\_t}{IntAlarm\_t}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}} \mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}}}
+
+\mbox{\Hypertarget{_sistema_8h_a65434b2d8122a3cea43a2407c2789c9c}\label{_sistema_8h_a65434b2d8122a3cea43a2407c2789c9c}} 
+\index{Sistema.h@{Sistema.h}!StrAlarm\_t@{StrAlarm\_t}}
+\index{StrAlarm\_t@{StrAlarm\_t}!Sistema.h@{Sistema.h}}
+\doxysubsubsection{\texorpdfstring{StrAlarm\_t}{StrAlarm\_t}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}} \mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}}}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55b}\label{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55b}} 
+\doxysubsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ALTA@{ALTA}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!ALTA@{ALTA}}}\mbox{\Hypertarget{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba5f504b4e3d4d75d14b4c8f8b89b85ac0}\label{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba5f504b4e3d4d75d14b4c8f8b89b85ac0}} 
+A\+L\+TA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MEDIA@{MEDIA}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!MEDIA@{MEDIA}}}\mbox{\Hypertarget{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba3eb0b3c78d811b28fdb69a414c0881b8}\label{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba3eb0b3c78d811b28fdb69a414c0881b8}} 
+M\+E\+D\+IA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAIXA@{BAIXA}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!BAIXA@{BAIXA}}}\mbox{\Hypertarget{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba24a91d93586fd9660bf7d7f23620f144}\label{_sistema_8h_a06fc87d81c62e9abb8790b6e5713c55ba24a91d93586fd9660bf7d7f23620f144}} 
+B\+A\+I\+XA&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7}\label{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7}} 
+\doxysubsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TENSAO@{TENSAO}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!TENSAO@{TENSAO}}}\mbox{\Hypertarget{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a5dc5876b3ae7e05b0e636988d0c1caac}\label{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a5dc5876b3ae7e05b0e636988d0c1caac}} 
+T\+E\+N\+S\+AO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CORRENTE@{CORRENTE}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!CORRENTE@{CORRENTE}}}\mbox{\Hypertarget{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a1bcaa6a8013d8d242de63d6c288e7bf4}\label{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a1bcaa6a8013d8d242de63d6c288e7bf4}} 
+C\+O\+R\+R\+E\+N\+TE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OLEO@{OLEO}!Sistema.h@{Sistema.h}}\index{Sistema.h@{Sistema.h}!OLEO@{OLEO}}}\mbox{\Hypertarget{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a00d8cd5d6d78a5c2f8c57c4d6a335b85}\label{_sistema_8h_adf764cbdea00d65edcd07bb9953ad2b7a00d8cd5d6d78a5c2f8c57c4d6a335b85}} 
+O\+L\+EO&\\
+\hline
+
+\end{DoxyEnumFields}

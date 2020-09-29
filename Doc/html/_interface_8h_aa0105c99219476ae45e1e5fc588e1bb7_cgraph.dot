@@ -1,0 +1,16 @@
+digraph "ImprimirAtuado"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ImprimirAtuado",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ReadEquipamento",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_equipamento_8h.html#ad591852e9b18ae97339e8b1851721635",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="String2Equipamento_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_equipamento_8h.html#a7206bd6d250d93a24615d73e4aaac6a9",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GetInt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_equipamento_8h.html#af33a10e452044c45a2b0c01279a47430",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Limpar_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_equipamento_8h.html#a7662232d4e826e676ec12c39ac8af870",tooltip=" "];
+}

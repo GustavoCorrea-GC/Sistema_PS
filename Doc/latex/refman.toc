@@ -1,0 +1,104 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Alarme\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Field Documentation}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Ativo}{5}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Classificacao}{5}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}DataCadastro}{6}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}DataEntrada}{6}{subsubsection.3.1.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.1.5}DataSaida}{6}{subsubsection.3.1.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.1.6}Descricao}{6}{subsubsection.3.1.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.1.7}identificador}{6}{subsubsection.3.1.1.7}%
+\contentsline {subsubsection}{\numberline {3.1.1.8}N\_Ativacao}{6}{subsubsection.3.1.1.8}%
+\contentsline {subsubsection}{\numberline {3.1.1.9}N\_Serie\_Equi}{6}{subsubsection.3.1.1.9}%
+\contentsline {subsubsection}{\numberline {3.1.1.10}Nome}{7}{subsubsection.3.1.1.10}%
+\contentsline {section}{\numberline {3.2}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Field Documentation}{7}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Ano}{7}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Dia}{7}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Mes}{8}{subsubsection.3.2.2.3}%
+\contentsline {section}{\numberline {3.3}Equipamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Field Documentation}{8}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Data}{8}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Descricao}{8}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}N\_Serie}{8}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Nome}{9}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Tipo}{9}{subsubsection.3.3.1.5}%
+\contentsline {section}{\numberline {3.4}Int\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Field Documentation}{9}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Id}{9}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Val}{9}{subsubsection.3.4.1.2}%
+\contentsline {section}{\numberline {3.5}Str\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{9}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Field Documentation}{10}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Desc}{10}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}Id}{10}{subsubsection.3.5.1.2}%
+\contentsline {chapter}{\numberline {4}File Documentation}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Alarmes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Equipamento.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Typedef Documentation}{12}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Equipamento\_t}{12}{subsubsection.4.2.2.1}%
+\contentsline {subsection}{\numberline {4.2.3}Function Documentation}{12}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}CreateEquipamento()}{12}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}DeleteEquipamento()}{12}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}GetInt()}{12}{subsubsection.4.2.3.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.4}Limpar\_buffer()}{13}{subsubsection.4.2.3.4}%
+\contentsline {subsubsection}{\numberline {4.2.3.5}ReadEquipamento()}{13}{subsubsection.4.2.3.5}%
+\contentsline {subsubsection}{\numberline {4.2.3.6}String2Equipamento\_t()}{13}{subsubsection.4.2.3.6}%
+\contentsline {subsubsection}{\numberline {4.2.3.7}UpdateEquipamento()}{13}{subsubsection.4.2.3.7}%
+\contentsline {section}{\numberline {4.3}Interface.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Function Documentation}{14}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Ativar\_Alarmes()}{14}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Atualiza\_Alarme()}{14}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Atualiza\_Equipamento()}{14}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}Criar\_Alarme()}{14}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}Criar\_Equipamento()}{14}{subsubsection.4.3.1.5}%
+\contentsline {subsubsection}{\numberline {4.3.1.6}Desativar\_Alarmes()}{15}{subsubsection.4.3.1.6}%
+\contentsline {subsubsection}{\numberline {4.3.1.7}Filtrar()}{15}{subsubsection.4.3.1.7}%
+\contentsline {subsubsection}{\numberline {4.3.1.8}GetSize()}{15}{subsubsection.4.3.1.8}%
+\contentsline {subsubsection}{\numberline {4.3.1.9}ImprimirAlarme()}{15}{subsubsection.4.3.1.9}%
+\contentsline {subsubsection}{\numberline {4.3.1.10}ImprimirAtuado()}{15}{subsubsection.4.3.1.10}%
+\contentsline {subsubsection}{\numberline {4.3.1.11}ImprimirEquipamento()}{16}{subsubsection.4.3.1.11}%
+\contentsline {subsubsection}{\numberline {4.3.1.12}ImprimirTodosAtuados()}{16}{subsubsection.4.3.1.12}%
+\contentsline {subsubsection}{\numberline {4.3.1.13}ImprimirTudoAlarmes()}{16}{subsubsection.4.3.1.13}%
+\contentsline {subsubsection}{\numberline {4.3.1.14}ImprimirTudoEquipamentos()}{16}{subsubsection.4.3.1.14}%
+\contentsline {subsubsection}{\numberline {4.3.1.15}Menu()}{16}{subsubsection.4.3.1.15}%
+\contentsline {subsubsection}{\numberline {4.3.1.16}Ordenar\_Desc()}{16}{subsubsection.4.3.1.16}%
+\contentsline {subsubsection}{\numberline {4.3.1.17}OrdenarAtuacao()}{17}{subsubsection.4.3.1.17}%
+\contentsline {subsubsection}{\numberline {4.3.1.18}OrdenarClassificacao()}{17}{subsubsection.4.3.1.18}%
+\contentsline {subsubsection}{\numberline {4.3.1.19}Pesquisa\_Equipamento()}{17}{subsubsection.4.3.1.19}%
+\contentsline {subsubsection}{\numberline {4.3.1.20}Pesquisar\_Alarme()}{17}{subsubsection.4.3.1.20}%
+\contentsline {subsubsection}{\numberline {4.3.1.21}Remover\_Alarme()}{17}{subsubsection.4.3.1.21}%
+\contentsline {subsubsection}{\numberline {4.3.1.22}Remover\_Equipamento()}{17}{subsubsection.4.3.1.22}%
+\contentsline {subsubsection}{\numberline {4.3.1.23}SortInt()}{17}{subsubsection.4.3.1.23}%
+\contentsline {subsubsection}{\numberline {4.3.1.24}SortString()}{18}{subsubsection.4.3.1.24}%
+\contentsline {section}{\numberline {4.4}Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{18}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{18}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Function Documentation}{18}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}main()}{19}{subsubsection.4.4.2.1}%
+\contentsline {section}{\numberline {4.5}Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{19}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{20}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Macro Definition Documentation}{20}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}ALARME\_FILE}{20}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}BYTES\_MAX}{20}{subsubsection.4.5.2.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.3}DESC\_MAX}{20}{subsubsection.4.5.2.3}%
+\contentsline {subsubsection}{\numberline {4.5.2.4}EQUIP\_FILE}{20}{subsubsection.4.5.2.4}%
+\contentsline {subsubsection}{\numberline {4.5.2.5}FALSE}{20}{subsubsection.4.5.2.5}%
+\contentsline {subsubsection}{\numberline {4.5.2.6}INT\_MAX}{21}{subsubsection.4.5.2.6}%
+\contentsline {subsubsection}{\numberline {4.5.2.7}NOME\_MAX}{21}{subsubsection.4.5.2.7}%
+\contentsline {subsubsection}{\numberline {4.5.2.8}TEMP}{21}{subsubsection.4.5.2.8}%
+\contentsline {subsubsection}{\numberline {4.5.2.9}TRUE}{21}{subsubsection.4.5.2.9}%
+\contentsline {subsection}{\numberline {4.5.3}Typedef Documentation}{21}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}bool}{21}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}Data\_t}{21}{subsubsection.4.5.3.2}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}IntAlarm\_t}{21}{subsubsection.4.5.3.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.4}StrAlarm\_t}{21}{subsubsection.4.5.3.4}%
+\contentsline {subsection}{\numberline {4.5.4}Enumeration Type Documentation}{21}{subsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.4.1}anonymous enum}{21}{subsubsection.4.5.4.1}%
+\contentsline {subsubsection}{\numberline {4.5.4.2}anonymous enum}{22}{subsubsection.4.5.4.2}%
+\contentsline {chapter}{Index}{23}{section*.15}%

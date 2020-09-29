@@ -1,0 +1,59 @@
+\hypertarget{_equipamento_8h}{}\doxysection{Equipamento.\+h File Reference}
+\label{_equipamento_8h}\index{Equipamento.h@{Equipamento.h}}
+
+
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_equipamento_8h_ab304619f73448114cf894670dd25d34a}\label{_equipamento_8h_ab304619f73448114cf894670dd25d34a}} 
+typedef struct \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} {\bfseries Equipamento\+\_\+t}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_equipamento_8h_ac81e4ee1287e15773dfe7e62d210993a}\label{_equipamento_8h_ac81e4ee1287e15773dfe7e62d210993a}} 
+int {\bfseries Create\+Equipamento} (\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} E)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_ad591852e9b18ae97339e8b1851721635}\label{_equipamento_8h_ad591852e9b18ae97339e8b1851721635}} 
+int {\bfseries Read\+Equipamento} (int N\+\_\+\+Serie, \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$E)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_ae4c044d3610ece5da6026a8a2a837930}\label{_equipamento_8h_ae4c044d3610ece5da6026a8a2a837930}} 
+int {\bfseries Update\+Equipamento} (\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} E)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_af6fc89173f09843c31c2b2d3aa055d53}\label{_equipamento_8h_af6fc89173f09843c31c2b2d3aa055d53}} 
+int {\bfseries Delete\+Equipamento} (int N\+\_\+\+Serie)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_af33a10e452044c45a2b0c01279a47430}\label{_equipamento_8h_af33a10e452044c45a2b0c01279a47430}} 
+int {\bfseries Get\+Int} (int $\ast$i, char $\ast$linha)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_a7662232d4e826e676ec12c39ac8af870}\label{_equipamento_8h_a7662232d4e826e676ec12c39ac8af870}} 
+void {\bfseries Limpar\+\_\+buffer} (char $\ast$buf)
+\item 
+\mbox{\Hypertarget{_equipamento_8h_a7206bd6d250d93a24615d73e4aaac6a9}\label{_equipamento_8h_a7206bd6d250d93a24615d73e4aaac6a9}} 
+void {\bfseries String2\+Equipamento\+\_\+t} (char $\ast$linha, \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$Equip)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares. 
+
+Arquivo contendo as funções de interface e suas funções auxiliares.
+
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares.
+
+\begin{DoxyAuthor}{Author}
+Gustavo Correa 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020-\/09-\/27 
+\end{DoxyDate}

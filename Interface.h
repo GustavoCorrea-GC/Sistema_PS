@@ -1,12 +1,142 @@
 /**
- * @brief Arquivo contendo as funções de interface 
- * e suas funções auxiliares.
+ * @brief Arquivo contendo as funções de interface e suas funções auxiliares.
  * 
  * @file Equipamento.h
  * @author Gustavo Correa
  * @date 2020-09-27
  */
-
+/*------------------Prototipos--------------------------*/
+/**
+ * @brief GetSize Obter tamanho.
+ * Função que obtem a quantidade de elementos de um arquivo.
+ * @param A Caminho para o arquivo que se deseja saber o tamanho.
+ * @return int 
+ */
+int GetSize(char *A);
+/**
+ * @brief 
+ * 
+ * @param vetor 
+ * @param inicio 
+ * @param fim 
+ */
+void SortString(StrAlarm_t vetor[], int inicio, int fim);
+/**
+ * @brief 
+ * 
+ * @param vetor 
+ * @param inicio 
+ * @param fim 
+ */
+void SortInt(IntAlarm_t vetor[],int inicio, int fim);
+/**
+ * @brief 
+ * 
+ * @param Eq 
+ */
+void ImprimirEquipamento(Equipamento_t *Eq);
+/**
+ * @brief 
+ * 
+ */
+void ImprimirTudoEquipamentos();
+/**
+ * @brief 
+ * 
+ */
+void Atualiza_Equipamento();
+/**
+ * @brief 
+ * 
+ */
+void Criar_Equipamento();
+/**
+ * @brief 
+ * 
+ */
+void Remover_Equipamento();
+/**
+ * @brief 
+ * 
+ */
+void Pesquisa_Equipamento();
+/**
+ * @brief 
+ * 
+ * @param A 
+ */
+void ImprimirAlarme(Alarme_t *A);
+/**
+ * @brief 
+ * 
+ */
+void ImprimirTudoAlarmes();
+/**
+ * @brief 
+ * 
+ */
+void Atualiza_Alarme();
+/**
+ * @brief 
+ * 
+ */
+void Criar_Alarme();
+/**
+ * @brief 
+ * 
+ */
+void Remover_Alarme();
+/**
+ * @brief 
+ * 
+ */
+void Pesquisar_Alarme();
+/**
+ * @brief 
+ * 
+ * @param A 
+ */
+void ImprimirAtuado(Alarme_t *A);
+/**
+ * @brief 
+ * 
+ */
+void ImprimirTodosAtuados();
+/**
+ * @brief 
+ * 
+ */
+void Ativar_Alarmes();
+/**
+ * @brief 
+ * 
+ */
+void Desativar_Alarmes();
+/**
+ * @brief 
+ * 
+ */
+void OrdenarClassificacao();
+/**
+ * @brief 
+ * 
+ */
+void Ordenar_Desc();
+/**
+ * @brief 
+ * 
+ */
+void OrdenarAtuacao();
+/**
+ * @brief 
+ * 
+ */
+void Filtrar();
+/**
+ * @brief 
+ * 
+ */
+void Menu();
 /*------------------Auxiliares--------------------------*/
 int GetSize(char *A){
     FILE *Aux;
@@ -130,8 +260,10 @@ void Atualiza_Equipamento(){
     printf("Digite o numero de serie do equipamento:\n");
     scanf("%d", &Aux.N_Serie);
     printf("Digite o novo nome do equipamento:\n");
-    scanf("%s", Aux.Nome);
-    printf("Digite o novo tipo do equipamento:\n");
+    getchar();
+    fgets(Aux.Nome,NOME_MAX,stdin);
+    Aux.Nome[strlen(Aux.Nome)-1]='\0';
+    printf("Digite o novo tipo do equipamento (Tensão:1 Corrente:2 Óleo:3):\n");
     scanf("%d", &Aux.Tipo);
     printf("Digite o novo dia de cadastro do equipamento:\n");
     scanf("%d", &Aux.Data.Dia);
@@ -140,7 +272,9 @@ void Atualiza_Equipamento(){
     printf("Digite o novo ano de cadastro do equipamento:\n");
     scanf("%d", &Aux.Data.Ano);
     printf("Digite a nova Descricao do equipamento:\n");
-    scanf("%s", Aux.Descricao);
+    getchar();
+    fgets(Aux.Descricao, DESC_MAX,stdin);
+    Aux.Descricao[strlen(Aux.Descricao)-1]='\0';
     if(UpdateEquipamento(Aux)==TRUE){
         printf("\nModificado com sucesso.\n");
     }
@@ -152,10 +286,12 @@ void Atualiza_Equipamento(){
 void Criar_Equipamento(){
     Equipamento_t Aux;
     printf("\nDigite o novo nome do equipamento:\n");
-    scanf("%s", Aux.Nome);
+    getchar();
+    fgets(Aux.Nome,NOME_MAX,stdin);
+    Aux.Nome[strlen(Aux.Nome)-1]='\0';
     printf("\nDigite o novo numero de serie do equipamento:\n");
     scanf("%d", &Aux.N_Serie);
-    printf("\nDigite o novo tipo do equipamento:\n");
+    printf("\nDigite o novo tipo do equipamento (Tensão:1 Corrente:2 Óleo:3):\n");
     scanf("%d", &Aux.Tipo);
     printf("\nDigite o novo dia de cadastro do equipamento:\n");
     scanf("%d", &Aux.Data.Dia);
@@ -164,7 +300,9 @@ void Criar_Equipamento(){
     printf("\nDigite o novo ano de cadastro do equipamento:\n");
     scanf("%d", &Aux.Data.Ano);
     printf("\nDigite a nova Descricao do equipamento:\n");
-    scanf("%s", Aux.Descricao);
+    getchar();
+    fgets(Aux.Descricao,DESC_MAX,stdin);
+    Aux.Descricao[strlen(Aux.Descricao)-1]='\0';
     if(CreateEquipamento(Aux)==TRUE){
         printf("\nCriado com sucesso.\n");
     }
@@ -271,14 +409,16 @@ void Atualiza_Alarme(){
     printf("Digite o identificador do alarme:\n");
     scanf("%d", &Aux.identificador);
     printf("Digite o novo nome do alarme:\n");
-    scanf("%s", Aux.Nome);
+    getchar();
+    fgets(Aux.Nome,NOME_MAX,stdin);
+    Aux.Nome[strlen(Aux.Nome)-1]='\0';
     printf("Digite o novo numero de serie do equipamento relacionado:\n");
     scanf("%d", &Aux.N_Serie_Equi);
     printf("Digita 1 para alarme ativado e 0 para alarme desativado\n");
     scanf("%d", &Aux.Ativo);
     printf("Digite o numero de vezes que esse alarme já foi ativado:\n");
     scanf("%d", &Aux.N_Ativacao);
-    printf("Digite a nova classificação do alarme:\n");
+    printf("Digite a nova classificação do alarme(Alta:1 Média:2 Baixa:3):\n");
     scanf("%d", &Aux.Classificacao);
     printf("Digite o novo dia de cadastro do Alarme:\n");
     scanf("%d", &Aux.DataCadastro.Dia);
@@ -299,7 +439,9 @@ void Atualiza_Alarme(){
     printf("Digite o novo ano de Saida do alarme:\n");
     scanf("%d", &Aux.DataSaida.Ano);
     printf("Digite a nova Descricao do alarme:\n");
-    scanf("%s", Aux.Descricao);
+    getchar();
+    fgets(Aux.Descricao,DESC_MAX,stdin);
+    Aux.Descricao[strlen(Aux.Descricao)-1]='\0';
     if(UpdateAlarme(Aux)==TRUE){
         printf("\nModificado com sucesso.\n");
     }
@@ -313,14 +455,16 @@ void Criar_Alarme(){
     printf("Digite o identificador do alarme:\n");
     scanf("%d", &Aux.identificador);
     printf("Digite o novo nome do alarme:\n");
-    scanf("%s", Aux.Nome);
+    getchar();
+    fgets(Aux.Nome,NOME_MAX,stdin);
+    Aux.Nome[strlen(Aux.Nome)-1]='\0';
     printf("Digite o novo numero de serie do equipamento relacionado:\n");
     scanf("%d", &Aux.N_Serie_Equi);
     printf("Digita 1 para alarme ativado e 0 para alarme desativado\n");
     scanf("%d", &Aux.Ativo);
     printf("Digite o numero de vezes que esse alarme já foi ativado:\n");
     scanf("%d", &Aux.N_Ativacao);
-    printf("Digite a nova classificação do alarme:\n");
+    printf("Digite a nova classificação do alarme (Alta:1 Média:2 Baixa:3):\n");
     scanf("%d", &Aux.Classificacao);
     printf("Digite o novo dia de cadastro do Alarme:\n");
     scanf("%d", &Aux.DataCadastro.Dia);
@@ -341,7 +485,9 @@ void Criar_Alarme(){
     printf("Digite o novo ano de Saida do alarme:\n");
     scanf("%d", &Aux.DataSaida.Ano);
     printf("Digite a nova Descricao do alarme:\n");
-    scanf("%s", Aux.Descricao);
+    getchar();
+    fgets(Aux.Descricao,DESC_MAX,stdin);
+    Aux.Descricao[strlen(Aux.Descricao)-1]='\0';
     if(CreateAlarme(Aux)==TRUE){
         printf("\nCriado com sucesso.\n");
     }
@@ -606,8 +752,124 @@ void Filtrar(){
         if(strncmp(V[j].Desc+(k),palavra,strlen(palavra))==0){
           if(ReadAlarme(V[j].Id,&Aux)==TRUE)
             ImprimirAlarme(&Aux);
+            break;
         }
       }
     }
 
+}
+
+void Menu(){
+    int opt=0,opt2=0;
+    inicio:
+    printf("\n\nSelecione a opção desejada:");
+    printf("\n\n\tEquipamentos e suas opções digite 1.");
+    printf("\n\n\tAlarmes e suas opções digite 2.");
+    printf("\n\n\tPara sair digite 0.\n");
+    scanf("%d", &opt);
+
+    if(opt==1){
+        ImprimirTudoEquipamentos();
+        printf("\n\nSelecione a opção desejada:");
+        printf("\n\n\tAtualizar Equipamento digite 1:");
+        printf("\n\n\tDeletar Equipamento digite 2:");
+        printf("\n\n\tPesquisar Equipamento digite 3:");
+        printf("\n\n\tCriar Equipamento digite 4:");
+        printf("\n\n\tPara sair digite 0.\n");
+        scanf("%d", &opt2);
+        switch (opt2)
+        {
+        case 1:
+            Atualiza_Equipamento();
+            goto inicio;
+            break;
+        case 2:
+            Remover_Equipamento();
+            goto inicio;
+            break;
+        case 3:
+            Pesquisa_Equipamento();
+            goto inicio;
+            break;
+        case 4:
+            Criar_Equipamento();
+            goto inicio;
+            break;
+        case 0:
+
+            goto inicio;
+            break;
+        default:
+            break;
+        }
+    }
+    if(opt==2){
+        ImprimirTudoAlarmes();
+        printf("\n\nSelecione a opção desejada:");
+        printf("\n\n\tAtualizar Alarme digite 1:");
+        printf("\n\n\tDeletar Alarme digite 2:");
+        printf("\n\n\tPesquisar Alarme digite 3:");
+        printf("\n\n\tCriar Alarme digite 4:");
+        printf("\n\n\tMostrar alarmes atuados 5:");
+        printf("\n\n\tAtivar Alarme 6:");
+        printf("\n\n\tDesativar Alarme 7:");
+        printf("\n\n\tOrdenar alarmes por descrição 8:");
+        printf("\n\n\tMostrar os 3 alarmes mais atuados 9:");
+        printf("\n\n\tFiltrar alarme por descrição 10:");
+        printf("\n\n\tOrdenar por classificação 11:");
+        printf("\n\n\tPara sair digite 0.\n");
+        scanf("%d", &opt2);
+        switch (opt2)
+        {
+        case 1:
+            Atualiza_Alarme();
+            goto inicio;
+            break;
+        case 2:
+            Remover_Alarme();
+            goto inicio;
+            break;
+        case 3:
+            Pesquisar_Alarme();
+            goto inicio;
+            break;
+        case 4:
+            Criar_Alarme();
+            goto inicio;
+            break;
+        case 5:
+            ImprimirTodosAtuados();
+            goto inicio;
+            break;
+        case 6:
+            Ativar_Alarmes();
+            goto inicio;
+            break;
+        case 7:
+            Desativar_Alarmes();
+            goto inicio;
+            break;
+        case 8:
+            Ordenar_Desc();
+            goto inicio;
+            break;
+        case 9:
+            OrdenarAtuacao();
+            goto inicio;
+            break;
+        case 10:
+            Filtrar();
+            goto inicio;
+            break;
+        case 11:
+            OrdenarClassificacao();
+            goto inicio;
+            break;
+        
+        default:
+            break;
+        }
+    }
+    
+    
 }

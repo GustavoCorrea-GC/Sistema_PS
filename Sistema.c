@@ -18,22 +18,6 @@
 #include "Interface.h"
 
 int main(){
-    int i=15;
-    while(i>0){
-      ImprimirTudoEquipamentos();
-      ImprimirTudoAlarmes();
-      ImprimirTodosAtuados();
-      i--;
-    }
-    //ImprimirTudoEquipamentos();
-    //ImprimirTudoAlarmes();
-    //ImprimirTodosAtuados();
-    //OrdenarClassificacao();
-    printf("\n\nTestar\n\n");
-    OrdenarAtuacao();
-    printf("\n\nTestar1\n\n");
-    Filtrar();
-    printf("\n\nTestar2\n\n");
-    Ordenar_Desc();
+    Menu();
 
 }

@@ -17,6 +17,16 @@
 #define TEMP "Temporario.temp"
 
 typedef int bool;
+typedef struct StrAlarm_t{
+    int Id;
+    char Desc[DESC_MAX];
+}StrAlarm_t;
+
+typedef struct IntAlarm_t{
+    int Id;
+    int Val;
+}IntAlarm_t;
+
 
 enum{           //Enum dos Tipos.
     ALTA = 1,

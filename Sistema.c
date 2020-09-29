@@ -29,11 +29,11 @@ int main(){
     //ImprimirTudoAlarmes();
     //ImprimirTodosAtuados();
     //OrdenarClassificacao();
-    printf("\n\nAqui vai cagar\n\n");
+    printf("\n\nTestar\n\n");
     OrdenarAtuacao();
-    printf("\n\nAqui vai cagar2\n\n");
+    printf("\n\nTestar1\n\n");
     Filtrar();
-    printf("\n\nAqui vai cagar3\n\n");
+    printf("\n\nTestar2\n\n");
     Ordenar_Desc();
 
 }

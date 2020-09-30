@@ -147,8 +147,6 @@ int GetSize(char *A){
     char linha[BYTES_MAX];
     Aux=fopen(ALARME_FILE, "rt");
     if(Aux==NULL){
-        printf("Oh dear, something went wrong with read()! %s\n", strerror(errno));
-        //printf("Cagoaqui1");
         return 0;
     }
     while (!feof(Aux)){

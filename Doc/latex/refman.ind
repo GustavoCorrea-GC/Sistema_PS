@@ -1,280 +1,296 @@
 \begin{theindex}
 
+  \item {Alarme.h}, \hyperpage{15}
+    \subitem {CreateAlarme}, \hyperpage{16}
+    \subitem {DeleteAlarme}, \hyperpage{16}
+    \subitem {ReadAlarme}, \hyperpage{16}
+    \subitem {String2Alarme\_t}, \hyperpage{17}
+    \subitem {UpdateAlarme}, \hyperpage{17}
   \item {ALARME\_FILE}
-    \subitem {Sistema.h}, \hyperpage{20}
-  \item {Alarme\_t}, \hyperpage{5}
-    \subitem {Ativo}, \hyperpage{5}
-    \subitem {Classificacao}, \hyperpage{5}
-    \subitem {DataCadastro}, \hyperpage{5}
-    \subitem {DataEntrada}, \hyperpage{6}
-    \subitem {DataSaida}, \hyperpage{6}
-    \subitem {Descricao}, \hyperpage{6}
-    \subitem {identificador}, \hyperpage{6}
-    \subitem {N\_Ativacao}, \hyperpage{6}
-    \subitem {N\_Serie\_Equi}, \hyperpage{6}
-    \subitem {Nome}, \hyperpage{6}
-  \item {Alarmes.h}, \hyperpage{11}
+    \subitem {Sistema.h}, \hyperpage{30}
+  \item {Alarme\_t}, \hyperpage{9}
+    \subitem {Ativo}, \hyperpage{9}
+    \subitem {Classificacao}, \hyperpage{9}
+    \subitem {DataCadastro}, \hyperpage{10}
+    \subitem {DataEntrada}, \hyperpage{10}
+    \subitem {DataSaida}, \hyperpage{10}
+    \subitem {Descricao}, \hyperpage{10}
+    \subitem {identificador}, \hyperpage{10}
+    \subitem {N\_Ativacao}, \hyperpage{10}
+    \subitem {N\_Serie\_Equi}, \hyperpage{10}
+    \subitem {Nome}, \hyperpage{10}
   \item {ALTA}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
   \item {Ano}
-    \subitem {Data\_t}, \hyperpage{7}
+    \subitem {Data\_t}, \hyperpage{11}
   \item {Ativar\_Alarmes}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{23}
   \item {Ativo}
-    \subitem {Alarme\_t}, \hyperpage{5}
+    \subitem {Alarme\_t}, \hyperpage{9}
   \item {Atualiza\_Alarme}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{23}
   \item {Atualiza\_Equipamento}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{23}
 
   \indexspace
 
   \item {BAIXA}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
   \item {bool}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Sistema.h}, \hyperpage{32}
   \item {BYTES\_MAX}
-    \subitem {Sistema.h}, \hyperpage{20}
+    \subitem {Sistema.h}, \hyperpage{30}
 
   \indexspace
 
   \item {Classificacao}
-    \subitem {Alarme\_t}, \hyperpage{5}
+    \subitem {Alarme\_t}, \hyperpage{9}
   \item {CORRENTE}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
+  \item {CreateAlarme}
+    \subitem {Alarme.h}, \hyperpage{16}
   \item {CreateEquipamento}
-    \subitem {Equipamento.h}, \hyperpage{12}
+    \subitem {Equipamento.h}, \hyperpage{19}
   \item {Criar\_Alarme}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{23}
   \item {Criar\_Equipamento}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{24}
 
   \indexspace
 
   \item {Data}
-    \subitem {Equipamento\_t}, \hyperpage{8}
-  \item {Data\_t}, \hyperpage{7}
-    \subitem {Ano}, \hyperpage{7}
-    \subitem {Dia}, \hyperpage{7}
-    \subitem {Mes}, \hyperpage{7}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Equipamento\_t}, \hyperpage{12}
+  \item {Data\_t}, \hyperpage{11}
+    \subitem {Ano}, \hyperpage{11}
+    \subitem {Dia}, \hyperpage{11}
+    \subitem {Mes}, \hyperpage{11}
+    \subitem {Sistema.h}, \hyperpage{32}
   \item {DataCadastro}
-    \subitem {Alarme\_t}, \hyperpage{5}
+    \subitem {Alarme\_t}, \hyperpage{10}
   \item {DataEntrada}
-    \subitem {Alarme\_t}, \hyperpage{6}
+    \subitem {Alarme\_t}, \hyperpage{10}
   \item {DataSaida}
-    \subitem {Alarme\_t}, \hyperpage{6}
+    \subitem {Alarme\_t}, \hyperpage{10}
+  \item {DeleteAlarme}
+    \subitem {Alarme.h}, \hyperpage{16}
   \item {DeleteEquipamento}
-    \subitem {Equipamento.h}, \hyperpage{12}
+    \subitem {Equipamento.h}, \hyperpage{19}
   \item {Desativar\_Alarmes}
-    \subitem {Interface.h}, \hyperpage{14}
+    \subitem {Interface.h}, \hyperpage{24}
   \item {Desc}
-    \subitem {StrAlarm\_t}, \hyperpage{10}
+    \subitem {StrAlarm\_t}, \hyperpage{14}
   \item {DESC\_MAX}
-    \subitem {Sistema.h}, \hyperpage{20}
+    \subitem {Sistema.h}, \hyperpage{30}
   \item {Descricao}
-    \subitem {Alarme\_t}, \hyperpage{6}
-    \subitem {Equipamento\_t}, \hyperpage{8}
+    \subitem {Alarme\_t}, \hyperpage{10}
+    \subitem {Equipamento\_t}, \hyperpage{12}
   \item {Dia}
-    \subitem {Data\_t}, \hyperpage{7}
+    \subitem {Data\_t}, \hyperpage{11}
+  \item {Doc\_pages/mainpage.md}, \hyperpage{18}
 
   \indexspace
 
   \item {EQUIP\_FILE}
-    \subitem {Sistema.h}, \hyperpage{20}
-  \item {Equipamento.h}, \hyperpage{11}
-    \subitem {CreateEquipamento}, \hyperpage{12}
-    \subitem {DeleteEquipamento}, \hyperpage{12}
-    \subitem {Equipamento\_t}, \hyperpage{12}
-    \subitem {GetInt}, \hyperpage{12}
-    \subitem {Limpar\_buffer}, \hyperpage{12}
-    \subitem {ReadEquipamento}, \hyperpage{13}
-    \subitem {String2Equipamento\_t}, \hyperpage{13}
-    \subitem {UpdateEquipamento}, \hyperpage{13}
-  \item {Equipamento\_t}, \hyperpage{8}
-    \subitem {Data}, \hyperpage{8}
-    \subitem {Descricao}, \hyperpage{8}
-    \subitem {Equipamento.h}, \hyperpage{12}
-    \subitem {N\_Serie}, \hyperpage{8}
-    \subitem {Nome}, \hyperpage{8}
-    \subitem {Tipo}, \hyperpage{9}
+    \subitem {Sistema.h}, \hyperpage{31}
+  \item {Equipamento.h}, \hyperpage{18}
+    \subitem {CreateEquipamento}, \hyperpage{19}
+    \subitem {DeleteEquipamento}, \hyperpage{19}
+    \subitem {Equipamento\_t}, \hyperpage{19}
+    \subitem {GetInt}, \hyperpage{19}
+    \subitem {Limpar\_buffer}, \hyperpage{20}
+    \subitem {ReadEquipamento}, \hyperpage{20}
+    \subitem {String2Equipamento\_t}, \hyperpage{21}
+    \subitem {UpdateEquipamento}, \hyperpage{21}
+  \item {Equipamento\_t}, \hyperpage{12}
+    \subitem {Data}, \hyperpage{12}
+    \subitem {Descricao}, \hyperpage{12}
+    \subitem {Equipamento.h}, \hyperpage{19}
+    \subitem {N\_Serie}, \hyperpage{12}
+    \subitem {Nome}, \hyperpage{13}
+    \subitem {Tipo}, \hyperpage{13}
 
   \indexspace
 
   \item {FALSE}
-    \subitem {Sistema.h}, \hyperpage{20}
+    \subitem {Sistema.h}, \hyperpage{31}
   \item {Filtrar}
-    \subitem {Interface.h}, \hyperpage{15}
+    \subitem {Interface.h}, \hyperpage{24}
 
   \indexspace
 
   \item {GetInt}
-    \subitem {Equipamento.h}, \hyperpage{12}
+    \subitem {Equipamento.h}, \hyperpage{19}
   \item {GetSize}
-    \subitem {Interface.h}, \hyperpage{15}
+    \subitem {Interface.h}, \hyperpage{24}
 
   \indexspace
 
   \item {Id}
-    \subitem {IntAlarm\_t}, \hyperpage{9}
-    \subitem {StrAlarm\_t}, \hyperpage{10}
+    \subitem {IntAlarm\_t}, \hyperpage{13}
+    \subitem {StrAlarm\_t}, \hyperpage{14}
   \item {identificador}
-    \subitem {Alarme\_t}, \hyperpage{6}
+    \subitem {Alarme\_t}, \hyperpage{10}
   \item {ImprimirAlarme}
-    \subitem {Interface.h}, \hyperpage{15}
+    \subitem {Interface.h}, \hyperpage{24}
   \item {ImprimirAtuado}
-    \subitem {Interface.h}, \hyperpage{15}
+    \subitem {Interface.h}, \hyperpage{25}
   \item {ImprimirEquipamento}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{25}
   \item {ImprimirTodosAtuados}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{25}
   \item {ImprimirTudoAlarmes}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{25}
   \item {ImprimirTudoEquipamentos}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{26}
   \item {INT\_MAX}
-    \subitem {Sistema.h}, \hyperpage{20}
-  \item {IntAlarm\_t}, \hyperpage{9}
-    \subitem {Id}, \hyperpage{9}
-    \subitem {Sistema.h}, \hyperpage{21}
-    \subitem {Val}, \hyperpage{9}
-  \item {Interface.h}, \hyperpage{13}
-    \subitem {Ativar\_Alarmes}, \hyperpage{14}
-    \subitem {Atualiza\_Alarme}, \hyperpage{14}
-    \subitem {Atualiza\_Equipamento}, \hyperpage{14}
-    \subitem {Criar\_Alarme}, \hyperpage{14}
-    \subitem {Criar\_Equipamento}, \hyperpage{14}
-    \subitem {Desativar\_Alarmes}, \hyperpage{14}
-    \subitem {Filtrar}, \hyperpage{15}
-    \subitem {GetSize}, \hyperpage{15}
-    \subitem {ImprimirAlarme}, \hyperpage{15}
-    \subitem {ImprimirAtuado}, \hyperpage{15}
-    \subitem {ImprimirEquipamento}, \hyperpage{16}
-    \subitem {ImprimirTodosAtuados}, \hyperpage{16}
-    \subitem {ImprimirTudoAlarmes}, \hyperpage{16}
-    \subitem {ImprimirTudoEquipamentos}, \hyperpage{16}
-    \subitem {Menu}, \hyperpage{16}
-    \subitem {Ordenar\_Desc}, \hyperpage{16}
-    \subitem {OrdenarAtuacao}, \hyperpage{16}
-    \subitem {OrdenarClassificacao}, \hyperpage{17}
-    \subitem {Pesquisa\_Equipamento}, \hyperpage{17}
-    \subitem {Pesquisar\_Alarme}, \hyperpage{17}
-    \subitem {Remover\_Alarme}, \hyperpage{17}
-    \subitem {Remover\_Equipamento}, \hyperpage{17}
-    \subitem {SortInt}, \hyperpage{17}
-    \subitem {SortString}, \hyperpage{18}
+    \subitem {Sistema.h}, \hyperpage{31}
+  \item {IntAlarm\_t}, \hyperpage{13}
+    \subitem {Id}, \hyperpage{13}
+    \subitem {Sistema.h}, \hyperpage{32}
+    \subitem {Val}, \hyperpage{14}
+  \item {Interface.h}, \hyperpage{21}
+    \subitem {Ativar\_Alarmes}, \hyperpage{23}
+    \subitem {Atualiza\_Alarme}, \hyperpage{23}
+    \subitem {Atualiza\_Equipamento}, \hyperpage{23}
+    \subitem {Criar\_Alarme}, \hyperpage{23}
+    \subitem {Criar\_Equipamento}, \hyperpage{24}
+    \subitem {Desativar\_Alarmes}, \hyperpage{24}
+    \subitem {Filtrar}, \hyperpage{24}
+    \subitem {GetSize}, \hyperpage{24}
+    \subitem {ImprimirAlarme}, \hyperpage{24}
+    \subitem {ImprimirAtuado}, \hyperpage{25}
+    \subitem {ImprimirEquipamento}, \hyperpage{25}
+    \subitem {ImprimirTodosAtuados}, \hyperpage{25}
+    \subitem {ImprimirTudoAlarmes}, \hyperpage{25}
+    \subitem {ImprimirTudoEquipamentos}, \hyperpage{26}
+    \subitem {Menu}, \hyperpage{26}
+    \subitem {Ordenar\_Desc}, \hyperpage{26}
+    \subitem {OrdenarAtuacao}, \hyperpage{26}
+    \subitem {OrdenarClassificacao}, \hyperpage{26}
+    \subitem {Pesquisa\_Equipamento}, \hyperpage{26}
+    \subitem {Pesquisar\_Alarme}, \hyperpage{27}
+    \subitem {Remover\_Alarme}, \hyperpage{27}
+    \subitem {Remover\_Equipamento}, \hyperpage{27}
+    \subitem {SortInt}, \hyperpage{27}
+    \subitem {SortString}, \hyperpage{27}
 
   \indexspace
 
   \item {Limpar\_buffer}
-    \subitem {Equipamento.h}, \hyperpage{12}
+    \subitem {Equipamento.h}, \hyperpage{20}
 
   \indexspace
 
   \item {main}
-    \subitem {Sistema.c}, \hyperpage{18}
+    \subitem {Sistema.c}, \hyperpage{29}
   \item {MEDIA}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
   \item {Menu}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{26}
   \item {Mes}
-    \subitem {Data\_t}, \hyperpage{7}
+    \subitem {Data\_t}, \hyperpage{11}
 
   \indexspace
 
   \item {N\_Ativacao}
-    \subitem {Alarme\_t}, \hyperpage{6}
+    \subitem {Alarme\_t}, \hyperpage{10}
   \item {N\_Serie}
-    \subitem {Equipamento\_t}, \hyperpage{8}
+    \subitem {Equipamento\_t}, \hyperpage{12}
   \item {N\_Serie\_Equi}
-    \subitem {Alarme\_t}, \hyperpage{6}
+    \subitem {Alarme\_t}, \hyperpage{10}
   \item {Nome}
-    \subitem {Alarme\_t}, \hyperpage{6}
-    \subitem {Equipamento\_t}, \hyperpage{8}
+    \subitem {Alarme\_t}, \hyperpage{10}
+    \subitem {Equipamento\_t}, \hyperpage{13}
   \item {NOME\_MAX}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Sistema.h}, \hyperpage{31}
 
   \indexspace
 
   \item {OLEO}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
   \item {Ordenar\_Desc}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{26}
   \item {OrdenarAtuacao}
-    \subitem {Interface.h}, \hyperpage{16}
+    \subitem {Interface.h}, \hyperpage{26}
   \item {OrdenarClassificacao}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{26}
 
   \indexspace
 
   \item {Pesquisa\_Equipamento}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{26}
   \item {Pesquisar\_Alarme}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{27}
 
   \indexspace
 
+  \item {ReadAlarme}
+    \subitem {Alarme.h}, \hyperpage{16}
   \item {ReadEquipamento}
-    \subitem {Equipamento.h}, \hyperpage{13}
+    \subitem {Equipamento.h}, \hyperpage{20}
   \item {Remover\_Alarme}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{27}
   \item {Remover\_Equipamento}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{27}
 
   \indexspace
 
-  \item {Sistema.c}, \hyperpage{18}
-    \subitem {main}, \hyperpage{18}
-  \item {Sistema.h}, \hyperpage{19}
-    \subitem {ALARME\_FILE}, \hyperpage{20}
-    \subitem {ALTA}, \hyperpage{22}
-    \subitem {BAIXA}, \hyperpage{22}
-    \subitem {bool}, \hyperpage{21}
-    \subitem {BYTES\_MAX}, \hyperpage{20}
-    \subitem {CORRENTE}, \hyperpage{22}
-    \subitem {Data\_t}, \hyperpage{21}
-    \subitem {DESC\_MAX}, \hyperpage{20}
-    \subitem {EQUIP\_FILE}, \hyperpage{20}
-    \subitem {FALSE}, \hyperpage{20}
-    \subitem {INT\_MAX}, \hyperpage{20}
-    \subitem {IntAlarm\_t}, \hyperpage{21}
-    \subitem {MEDIA}, \hyperpage{22}
-    \subitem {NOME\_MAX}, \hyperpage{21}
-    \subitem {OLEO}, \hyperpage{22}
-    \subitem {StrAlarm\_t}, \hyperpage{21}
-    \subitem {TEMP}, \hyperpage{21}
-    \subitem {TENSAO}, \hyperpage{22}
-    \subitem {TRUE}, \hyperpage{21}
+  \item {Sistema.c}, \hyperpage{28}
+    \subitem {main}, \hyperpage{29}
+  \item {Sistema.h}, \hyperpage{29}
+    \subitem {ALARME\_FILE}, \hyperpage{30}
+    \subitem {ALTA}, \hyperpage{33}
+    \subitem {BAIXA}, \hyperpage{33}
+    \subitem {bool}, \hyperpage{32}
+    \subitem {BYTES\_MAX}, \hyperpage{30}
+    \subitem {CORRENTE}, \hyperpage{33}
+    \subitem {Data\_t}, \hyperpage{32}
+    \subitem {DESC\_MAX}, \hyperpage{30}
+    \subitem {EQUIP\_FILE}, \hyperpage{31}
+    \subitem {FALSE}, \hyperpage{31}
+    \subitem {INT\_MAX}, \hyperpage{31}
+    \subitem {IntAlarm\_t}, \hyperpage{32}
+    \subitem {MEDIA}, \hyperpage{33}
+    \subitem {NOME\_MAX}, \hyperpage{31}
+    \subitem {OLEO}, \hyperpage{33}
+    \subitem {StrAlarm\_t}, \hyperpage{32}
+    \subitem {TEMP}, \hyperpage{31}
+    \subitem {TENSAO}, \hyperpage{33}
+    \subitem {TRUE}, \hyperpage{31}
   \item {SortInt}
-    \subitem {Interface.h}, \hyperpage{17}
+    \subitem {Interface.h}, \hyperpage{27}
   \item {SortString}
-    \subitem {Interface.h}, \hyperpage{18}
-  \item {StrAlarm\_t}, \hyperpage{9}
-    \subitem {Desc}, \hyperpage{10}
-    \subitem {Id}, \hyperpage{10}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Interface.h}, \hyperpage{27}
+  \item {StrAlarm\_t}, \hyperpage{14}
+    \subitem {Desc}, \hyperpage{14}
+    \subitem {Id}, \hyperpage{14}
+    \subitem {Sistema.h}, \hyperpage{32}
+  \item {String2Alarme\_t}
+    \subitem {Alarme.h}, \hyperpage{17}
   \item {String2Equipamento\_t}
-    \subitem {Equipamento.h}, \hyperpage{13}
+    \subitem {Equipamento.h}, \hyperpage{21}
 
   \indexspace
 
   \item {TEMP}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Sistema.h}, \hyperpage{31}
   \item {TENSAO}
-    \subitem {Sistema.h}, \hyperpage{22}
+    \subitem {Sistema.h}, \hyperpage{33}
   \item {Tipo}
-    \subitem {Equipamento\_t}, \hyperpage{9}
+    \subitem {Equipamento\_t}, \hyperpage{13}
   \item {TRUE}
-    \subitem {Sistema.h}, \hyperpage{21}
+    \subitem {Sistema.h}, \hyperpage{31}
 
   \indexspace
 
+  \item {UpdateAlarme}
+    \subitem {Alarme.h}, \hyperpage{17}
   \item {UpdateEquipamento}
-    \subitem {Equipamento.h}, \hyperpage{13}
+    \subitem {Equipamento.h}, \hyperpage{21}
 
   \indexspace
 
   \item {Val}
-    \subitem {IntAlarm\_t}, \hyperpage{9}
+    \subitem {IntAlarm\_t}, \hyperpage{14}
 
 \end{theindex}

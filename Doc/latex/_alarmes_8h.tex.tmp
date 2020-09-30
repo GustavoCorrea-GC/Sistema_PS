@@ -1,13 +1,13 @@
-\hypertarget{_alarmes_8h}{}\doxysection{Alarmes.\+h File Reference}
+\hypertarget{_alarmes_8h}{}\doxysection{Referência do Arquivo Alarmes.\+h}
 \label{_alarmes_8h}\index{Alarmes.h@{Alarmes.h}}
-This graph shows which files directly or indirectly include this file\+:
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo\+:
 % FIG 0
-\doxysubsection*{Data Structures}
+\doxysubsection*{Estruturas de Dados}
 \begin{DoxyCompactItemize}
 \item 
 struct \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}
 \end{DoxyCompactItemize}
-\doxysubsection*{Functions}
+\doxysubsection*{Funções}
 \begin{DoxyCompactItemize}
 \item 
 int \mbox{\hyperlink{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}{Create\+Alarme}} (\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} A)
@@ -22,54 +22,34 @@ void \mbox{\hyperlink{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}{String2\+Al
 \end{DoxyCompactItemize}
 
 
-\doxysubsection{Function Documentation}
+\doxysubsection{Funções}
 \mbox{\Hypertarget{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}\label{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}} 
 \index{Alarmes.h@{Alarmes.h}!CreateAlarme@{CreateAlarme}}
 \index{CreateAlarme@{CreateAlarme}!Alarmes.h@{Alarmes.h}}
 \doxysubsubsection{\texorpdfstring{CreateAlarme()}{CreateAlarme()}}
 {\footnotesize\ttfamily int Create\+Alarme (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}}]{A }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 1
-Here is the caller graph for this function\+:
-% FIG 2
 \mbox{\Hypertarget{_alarmes_8h_a25b1300b2c90d1e4188426f3b30fceb6}\label{_alarmes_8h_a25b1300b2c90d1e4188426f3b30fceb6}} 
 \index{Alarmes.h@{Alarmes.h}!DeleteAlarme@{DeleteAlarme}}
 \index{DeleteAlarme@{DeleteAlarme}!Alarmes.h@{Alarmes.h}}
 \doxysubsubsection{\texorpdfstring{DeleteAlarme()}{DeleteAlarme()}}
 {\footnotesize\ttfamily int Delete\+Alarme (\begin{DoxyParamCaption}\item[{int}]{Identificador }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 3
-Here is the caller graph for this function\+:
-% FIG 4
 \mbox{\Hypertarget{_alarmes_8h_ae902698da61e7dadccfd319f5f55b39a}\label{_alarmes_8h_ae902698da61e7dadccfd319f5f55b39a}} 
 \index{Alarmes.h@{Alarmes.h}!ReadAlarme@{ReadAlarme}}
 \index{ReadAlarme@{ReadAlarme}!Alarmes.h@{Alarmes.h}}
 \doxysubsubsection{\texorpdfstring{ReadAlarme()}{ReadAlarme()}}
 {\footnotesize\ttfamily int Read\+Alarme (\begin{DoxyParamCaption}\item[{int}]{Identificador,  }\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 5
-Here is the caller graph for this function\+:
-% FIG 6
 \mbox{\Hypertarget{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}\label{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}} 
 \index{Alarmes.h@{Alarmes.h}!String2Alarme\_t@{String2Alarme\_t}}
 \index{String2Alarme\_t@{String2Alarme\_t}!Alarmes.h@{Alarmes.h}}
 \doxysubsubsection{\texorpdfstring{String2Alarme\_t()}{String2Alarme\_t()}}
 {\footnotesize\ttfamily void String2\+Alarme\+\_\+t (\begin{DoxyParamCaption}\item[{char $\ast$}]{linha,  }\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 7
-Here is the caller graph for this function\+:
-% FIG 8
 \mbox{\Hypertarget{_alarmes_8h_a935fde5a6fbc72e946c9a8199468d080}\label{_alarmes_8h_a935fde5a6fbc72e946c9a8199468d080}} 
 \index{Alarmes.h@{Alarmes.h}!UpdateAlarme@{UpdateAlarme}}
 \index{UpdateAlarme@{UpdateAlarme}!Alarmes.h@{Alarmes.h}}
 \doxysubsubsection{\texorpdfstring{UpdateAlarme()}{UpdateAlarme()}}
 {\footnotesize\ttfamily int Update\+Alarme (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}}]{A }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 9
-Here is the caller graph for this function\+:
-% FIG 10

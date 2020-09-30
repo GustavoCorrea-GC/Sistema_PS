@@ -1,104 +1,121 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
-\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Alarme\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Field Documentation}{5}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Ativo}{5}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Classificacao}{5}{subsubsection.3.1.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.1.3}DataCadastro}{6}{subsubsection.3.1.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.1.4}DataEntrada}{6}{subsubsection.3.1.1.4}%
-\contentsline {subsubsection}{\numberline {3.1.1.5}DataSaida}{6}{subsubsection.3.1.1.5}%
-\contentsline {subsubsection}{\numberline {3.1.1.6}Descricao}{6}{subsubsection.3.1.1.6}%
-\contentsline {subsubsection}{\numberline {3.1.1.7}identificador}{6}{subsubsection.3.1.1.7}%
-\contentsline {subsubsection}{\numberline {3.1.1.8}N\_Ativacao}{6}{subsubsection.3.1.1.8}%
-\contentsline {subsubsection}{\numberline {3.1.1.9}N\_Serie\_Equi}{6}{subsubsection.3.1.1.9}%
-\contentsline {subsubsection}{\numberline {3.1.1.10}Nome}{7}{subsubsection.3.1.1.10}%
-\contentsline {section}{\numberline {3.2}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Field Documentation}{7}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Ano}{7}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Dia}{7}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}Mes}{8}{subsubsection.3.2.2.3}%
-\contentsline {section}{\numberline {3.3}Equipamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{8}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Field Documentation}{8}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Data}{8}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Descricao}{8}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}N\_Serie}{8}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Nome}{9}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Tipo}{9}{subsubsection.3.3.1.5}%
-\contentsline {section}{\numberline {3.4}Int\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{9}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Field Documentation}{9}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}Id}{9}{subsubsection.3.4.1.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}Val}{9}{subsubsection.3.4.1.2}%
-\contentsline {section}{\numberline {3.5}Str\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{9}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Field Documentation}{10}{subsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Desc}{10}{subsubsection.3.5.1.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.2}Id}{10}{subsubsection.3.5.1.2}%
-\contentsline {chapter}{\numberline {4}File Documentation}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Alarmes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Equipamento.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{11}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{12}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Typedef Documentation}{12}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Equipamento\_t}{12}{subsubsection.4.2.2.1}%
-\contentsline {subsection}{\numberline {4.2.3}Function Documentation}{12}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}CreateEquipamento()}{12}{subsubsection.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}DeleteEquipamento()}{12}{subsubsection.4.2.3.2}%
-\contentsline {subsubsection}{\numberline {4.2.3.3}GetInt()}{12}{subsubsection.4.2.3.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.4}Limpar\_buffer()}{13}{subsubsection.4.2.3.4}%
-\contentsline {subsubsection}{\numberline {4.2.3.5}ReadEquipamento()}{13}{subsubsection.4.2.3.5}%
-\contentsline {subsubsection}{\numberline {4.2.3.6}String2Equipamento\_t()}{13}{subsubsection.4.2.3.6}%
-\contentsline {subsubsection}{\numberline {4.2.3.7}UpdateEquipamento()}{13}{subsubsection.4.2.3.7}%
-\contentsline {section}{\numberline {4.3}Interface.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{13}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Function Documentation}{14}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Ativar\_Alarmes()}{14}{subsubsection.4.3.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Atualiza\_Alarme()}{14}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}Atualiza\_Equipamento()}{14}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}Criar\_Alarme()}{14}{subsubsection.4.3.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.1.5}Criar\_Equipamento()}{14}{subsubsection.4.3.1.5}%
-\contentsline {subsubsection}{\numberline {4.3.1.6}Desativar\_Alarmes()}{15}{subsubsection.4.3.1.6}%
-\contentsline {subsubsection}{\numberline {4.3.1.7}Filtrar()}{15}{subsubsection.4.3.1.7}%
-\contentsline {subsubsection}{\numberline {4.3.1.8}GetSize()}{15}{subsubsection.4.3.1.8}%
-\contentsline {subsubsection}{\numberline {4.3.1.9}ImprimirAlarme()}{15}{subsubsection.4.3.1.9}%
-\contentsline {subsubsection}{\numberline {4.3.1.10}ImprimirAtuado()}{15}{subsubsection.4.3.1.10}%
-\contentsline {subsubsection}{\numberline {4.3.1.11}ImprimirEquipamento()}{16}{subsubsection.4.3.1.11}%
-\contentsline {subsubsection}{\numberline {4.3.1.12}ImprimirTodosAtuados()}{16}{subsubsection.4.3.1.12}%
-\contentsline {subsubsection}{\numberline {4.3.1.13}ImprimirTudoAlarmes()}{16}{subsubsection.4.3.1.13}%
-\contentsline {subsubsection}{\numberline {4.3.1.14}ImprimirTudoEquipamentos()}{16}{subsubsection.4.3.1.14}%
-\contentsline {subsubsection}{\numberline {4.3.1.15}Menu()}{16}{subsubsection.4.3.1.15}%
-\contentsline {subsubsection}{\numberline {4.3.1.16}Ordenar\_Desc()}{16}{subsubsection.4.3.1.16}%
-\contentsline {subsubsection}{\numberline {4.3.1.17}OrdenarAtuacao()}{17}{subsubsection.4.3.1.17}%
-\contentsline {subsubsection}{\numberline {4.3.1.18}OrdenarClassificacao()}{17}{subsubsection.4.3.1.18}%
-\contentsline {subsubsection}{\numberline {4.3.1.19}Pesquisa\_Equipamento()}{17}{subsubsection.4.3.1.19}%
-\contentsline {subsubsection}{\numberline {4.3.1.20}Pesquisar\_Alarme()}{17}{subsubsection.4.3.1.20}%
-\contentsline {subsubsection}{\numberline {4.3.1.21}Remover\_Alarme()}{17}{subsubsection.4.3.1.21}%
-\contentsline {subsubsection}{\numberline {4.3.1.22}Remover\_Equipamento()}{17}{subsubsection.4.3.1.22}%
-\contentsline {subsubsection}{\numberline {4.3.1.23}SortInt()}{17}{subsubsection.4.3.1.23}%
-\contentsline {subsubsection}{\numberline {4.3.1.24}SortString()}{18}{subsubsection.4.3.1.24}%
-\contentsline {section}{\numberline {4.4}Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{18}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{18}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Function Documentation}{18}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.2.1}main()}{19}{subsubsection.4.4.2.1}%
-\contentsline {section}{\numberline {4.5}Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{19}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{20}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Macro Definition Documentation}{20}{subsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.1}ALARME\_FILE}{20}{subsubsection.4.5.2.1}%
-\contentsline {subsubsection}{\numberline {4.5.2.2}BYTES\_MAX}{20}{subsubsection.4.5.2.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.3}DESC\_MAX}{20}{subsubsection.4.5.2.3}%
-\contentsline {subsubsection}{\numberline {4.5.2.4}EQUIP\_FILE}{20}{subsubsection.4.5.2.4}%
-\contentsline {subsubsection}{\numberline {4.5.2.5}FALSE}{20}{subsubsection.4.5.2.5}%
-\contentsline {subsubsection}{\numberline {4.5.2.6}INT\_MAX}{21}{subsubsection.4.5.2.6}%
-\contentsline {subsubsection}{\numberline {4.5.2.7}NOME\_MAX}{21}{subsubsection.4.5.2.7}%
-\contentsline {subsubsection}{\numberline {4.5.2.8}TEMP}{21}{subsubsection.4.5.2.8}%
-\contentsline {subsubsection}{\numberline {4.5.2.9}TRUE}{21}{subsubsection.4.5.2.9}%
-\contentsline {subsection}{\numberline {4.5.3}Typedef Documentation}{21}{subsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.3.1}bool}{21}{subsubsection.4.5.3.1}%
-\contentsline {subsubsection}{\numberline {4.5.3.2}Data\_t}{21}{subsubsection.4.5.3.2}%
-\contentsline {subsubsection}{\numberline {4.5.3.3}IntAlarm\_t}{21}{subsubsection.4.5.3.3}%
-\contentsline {subsubsection}{\numberline {4.5.3.4}StrAlarm\_t}{21}{subsubsection.4.5.3.4}%
-\contentsline {subsection}{\numberline {4.5.4}Enumeration Type Documentation}{21}{subsection.4.5.4}%
-\contentsline {subsubsection}{\numberline {4.5.4.1}anonymous enum}{21}{subsubsection.4.5.4.1}%
-\contentsline {subsubsection}{\numberline {4.5.4.2}anonymous enum}{22}{subsubsection.4.5.4.2}%
-\contentsline {chapter}{Index}{23}{section*.15}%
+\babel@toc {brazil}{}
+\contentsline {chapter}{\numberline {1}Sistema de cadastro e manipulação de alarmes relacionados a equipamentos}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Resumo}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Lista de atividades futuras}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Índice das Estruturas de Dados}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Estruturas de Dados}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Índice dos Arquivos}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lista de Arquivos}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Estruturas}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Referência da Estrutura Alarme\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Descrição detalhada}{9}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Campos}{9}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Ativo}{9}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Classificacao}{10}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}DataCadastro}{10}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}DataEntrada}{10}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}DataSaida}{10}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}Descricao}{10}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}identificador}{10}{subsubsection.5.1.2.7}%
+\contentsline {subsubsection}{\numberline {5.1.2.8}N\_Ativacao}{10}{subsubsection.5.1.2.8}%
+\contentsline {subsubsection}{\numberline {5.1.2.9}N\_Serie\_Equi}{10}{subsubsection.5.1.2.9}%
+\contentsline {subsubsection}{\numberline {5.1.2.10}Nome}{11}{subsubsection.5.1.2.10}%
+\contentsline {section}{\numberline {5.2}Referência da Estrutura Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{11}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Descrição detalhada}{11}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Campos}{11}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Ano}{11}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Dia}{11}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}Mes}{12}{subsubsection.5.2.2.3}%
+\contentsline {section}{\numberline {5.3}Referência da Estrutura Equipamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{12}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Descrição detalhada}{12}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Campos}{12}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}Data}{12}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Descricao}{12}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}N\_Serie}{13}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}Nome}{13}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}Tipo}{13}{subsubsection.5.3.2.5}%
+\contentsline {section}{\numberline {5.4}Referência da Estrutura Int\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{13}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Descrição detalhada}{13}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Campos}{13}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Id}{14}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}Val}{14}{subsubsection.5.4.2.2}%
+\contentsline {section}{\numberline {5.5}Referência da Estrutura Str\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{14}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Descrição detalhada}{14}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Campos}{14}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}Desc}{14}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}Id}{14}{subsubsection.5.5.2.2}%
+\contentsline {chapter}{\numberline {6}Arquivos}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Referência do Arquivo Alarme.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{15}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Descrição detalhada}{15}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Funções}{16}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}CreateAlarme()}{16}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}DeleteAlarme()}{16}{subsubsection.6.1.2.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}ReadAlarme()}{16}{subsubsection.6.1.2.3}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}String2Alarme\_t()}{17}{subsubsection.6.1.2.4}%
+\contentsline {subsubsection}{\numberline {6.1.2.5}UpdateAlarme()}{17}{subsubsection.6.1.2.5}%
+\contentsline {section}{\numberline {6.2}Referência do Arquivo Doc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pages/mainpage.md}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Referência do Arquivo Equipamento.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{18}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Descrição detalhada}{18}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Definições dos tipos}{19}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}Equipamento\_t}{19}{subsubsection.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.3.3}Funções}{19}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}CreateEquipamento()}{19}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}DeleteEquipamento()}{19}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}GetInt()}{20}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}Limpar\_buffer()}{20}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}ReadEquipamento()}{20}{subsubsection.6.3.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.3.6}String2Equipamento\_t()}{21}{subsubsection.6.3.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.3.7}UpdateEquipamento()}{21}{subsubsection.6.3.3.7}%
+\contentsline {section}{\numberline {6.4}Referência do Arquivo Interface.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Descrição detalhada}{23}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Funções}{23}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}Ativar\_Alarmes()}{23}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}Atualiza\_Alarme()}{23}{subsubsection.6.4.2.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.3}Atualiza\_Equipamento()}{23}{subsubsection.6.4.2.3}%
+\contentsline {subsubsection}{\numberline {6.4.2.4}Criar\_Alarme()}{24}{subsubsection.6.4.2.4}%
+\contentsline {subsubsection}{\numberline {6.4.2.5}Criar\_Equipamento()}{24}{subsubsection.6.4.2.5}%
+\contentsline {subsubsection}{\numberline {6.4.2.6}Desativar\_Alarmes()}{24}{subsubsection.6.4.2.6}%
+\contentsline {subsubsection}{\numberline {6.4.2.7}Filtrar()}{24}{subsubsection.6.4.2.7}%
+\contentsline {subsubsection}{\numberline {6.4.2.8}GetSize()}{24}{subsubsection.6.4.2.8}%
+\contentsline {subsubsection}{\numberline {6.4.2.9}ImprimirAlarme()}{25}{subsubsection.6.4.2.9}%
+\contentsline {subsubsection}{\numberline {6.4.2.10}ImprimirAtuado()}{25}{subsubsection.6.4.2.10}%
+\contentsline {subsubsection}{\numberline {6.4.2.11}ImprimirEquipamento()}{25}{subsubsection.6.4.2.11}%
+\contentsline {subsubsection}{\numberline {6.4.2.12}ImprimirTodosAtuados()}{25}{subsubsection.6.4.2.12}%
+\contentsline {subsubsection}{\numberline {6.4.2.13}ImprimirTudoAlarmes()}{26}{subsubsection.6.4.2.13}%
+\contentsline {subsubsection}{\numberline {6.4.2.14}ImprimirTudoEquipamentos()}{26}{subsubsection.6.4.2.14}%
+\contentsline {subsubsection}{\numberline {6.4.2.15}Menu()}{26}{subsubsection.6.4.2.15}%
+\contentsline {subsubsection}{\numberline {6.4.2.16}Ordenar\_Desc()}{26}{subsubsection.6.4.2.16}%
+\contentsline {subsubsection}{\numberline {6.4.2.17}OrdenarAtuacao()}{26}{subsubsection.6.4.2.17}%
+\contentsline {subsubsection}{\numberline {6.4.2.18}OrdenarClassificacao()}{26}{subsubsection.6.4.2.18}%
+\contentsline {subsubsection}{\numberline {6.4.2.19}Pesquisa\_Equipamento()}{27}{subsubsection.6.4.2.19}%
+\contentsline {subsubsection}{\numberline {6.4.2.20}Pesquisar\_Alarme()}{27}{subsubsection.6.4.2.20}%
+\contentsline {subsubsection}{\numberline {6.4.2.21}Remover\_Alarme()}{27}{subsubsection.6.4.2.21}%
+\contentsline {subsubsection}{\numberline {6.4.2.22}Remover\_Equipamento()}{27}{subsubsection.6.4.2.22}%
+\contentsline {subsubsection}{\numberline {6.4.2.23}SortInt()}{27}{subsubsection.6.4.2.23}%
+\contentsline {subsubsection}{\numberline {6.4.2.24}SortString()}{28}{subsubsection.6.4.2.24}%
+\contentsline {section}{\numberline {6.5}Referência do Arquivo Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{28}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Descrição detalhada}{28}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Funções}{29}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}main()}{29}{subsubsection.6.5.2.1}%
+\contentsline {section}{\numberline {6.6}Referência do Arquivo Sistema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{29}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Descrição detalhada}{30}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Definições e macros}{30}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}ALARME\_FILE}{30}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}BYTES\_MAX}{30}{subsubsection.6.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}DESC\_MAX}{31}{subsubsection.6.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.6.2.4}EQUIP\_FILE}{31}{subsubsection.6.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.6.2.5}FALSE}{31}{subsubsection.6.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.6.2.6}INT\_MAX}{31}{subsubsection.6.6.2.6}%
+\contentsline {subsubsection}{\numberline {6.6.2.7}NOME\_MAX}{31}{subsubsection.6.6.2.7}%
+\contentsline {subsubsection}{\numberline {6.6.2.8}TEMP}{31}{subsubsection.6.6.2.8}%
+\contentsline {subsubsection}{\numberline {6.6.2.9}TRUE}{32}{subsubsection.6.6.2.9}%
+\contentsline {subsection}{\numberline {6.6.3}Definições dos tipos}{32}{subsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.1}bool}{32}{subsubsection.6.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.6.3.2}Data\_t}{32}{subsubsection.6.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.6.3.3}IntAlarm\_t}{32}{subsubsection.6.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.4}StrAlarm\_t}{32}{subsubsection.6.6.3.4}%
+\contentsline {subsection}{\numberline {6.6.4}Enumerações}{32}{subsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.1}anonymous enum}{32}{subsubsection.6.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.6.4.2}anonymous enum}{33}{subsubsection.6.6.4.2}%
+\contentsline {chapter}{\'Indice Remissivo}{35}{section*.17}%

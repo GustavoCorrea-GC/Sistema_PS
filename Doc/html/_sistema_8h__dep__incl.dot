@@ -3,7 +3,7 @@ digraph "Sistema.h"
  // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="Sistema.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 [label="Sistema.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Arquivo contendo as definições e tipos de dados utilizados no sistema."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Sistema.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_sistema_8c.html",tooltip=" "];
+  Node2 [label="Sistema.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_sistema_8c.html",tooltip="Arquivo contendo a função main e todos os includes."];
 }

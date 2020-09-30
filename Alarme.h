@@ -1,31 +1,67 @@
 /**
- * @brief Arquivo contendo o tipo de dado Alarme_t e as
- * suas funções de CRUD e suas funções auxiliares.
- * 
- * @file Equipamento.h
- * @author Gustavo Correa
+ * @file Alarme.h
+ * @author Gustavo Correa (gustavocorrea@alunos.utfpr.edu.br)
+ * @brief Arquivo contendo o tipo de dado Alarme_t, as suas funções de CRUD e suas funções auxiliares.
+ * @version 0.1
  * @date 2020-09-27
+ * @copyright Copyright (c) 2020
  */
 
-typedef struct {            //Tipo de dado Alarme_t
-    char Nome[128];
-    int Classificacao;
-    int N_Serie_Equi;
-    int identificador;
-    bool Ativo;
-    int N_Ativacao;
-    Data_t DataCadastro;
-    Data_t DataEntrada;
-    Data_t DataSaida;
-    char Descricao[256];
+/**
+ * @brief Estrutura de dados para o armazenamento e manipulação de alarmes.
+ * 
+ */
+typedef struct {            
+    char Nome[NOME_MAX];        /**< String contendo o nome do alarme. */
+    int Classificacao;          /**< Inteiro contendo a classificação do alarme em 3 possíveis. (ALTA:1 MEDIA:2 BAIXA:3) */
+    int N_Serie_Equi;           /**< Inteiro contendo o número de serie do equipamento relacionado ao alarme. */
+    int identificador;          /**< Inteiro contendo o identificador do alarme. */
+    bool Ativo;                 /**< Boolean que informa se o alarmes está ativo ou não. (TRUE:0 FALSE:1) */
+    int N_Ativacao;             /**< Inteiro contendo o número de vezes que esse alarme já foi ativado.*/
+    Data_t DataCadastro;        /**< Date_t contendo a data em que o alarme foi cadastrado. */
+    Data_t DataEntrada;         /**< Date_t contendo a data em que o alarme foi ativado. */
+    Data_t DataSaida;           /**< Date_t contendo a data em que o alarme será desativado. */
+    char Descricao[DESC_MAX];   /**< String contendo a descrição do alarme */
     
 } Alarme_t;
  
 /*-----------------PROTÓTIPOS---------------------------*/
+/**
+ * @brief Cria/insere um Alarme object.
+ * 
+ * @param A Recebe um Alarme_t que será inserido a lista de alarmes.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int CreateAlarme(Alarme_t A);
+/**
+ * @brief Lê um alarme a partir de um identificador e armazena em A o alarme encontrado.
+ * 
+ * @param Identificador Identificador que será lido.
+ * @param A Ponteiro para um Alarme_t onde ficará armazenado o alarme encontrado.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int ReadAlarme(int Identificador, Alarme_t *A);
+/**
+ * @brief Atualiza um alarme.
+ * 
+ * @param A Alarme_t que será atualizado, deve já conter todos os termos que será inseridos.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int UpdateAlarme(Alarme_t A);
+/**
+ * @brief Deleta da lista de alarmes um alarme a partir de seu identificador.
+ * 
+ * @param Identificador Identificador do alarme a ser removido.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int DeleteAlarme(int Identificador);
+/**
+ * @brief Função que converte uma string em uma estrutura de dados Alarme_t.
+ * 
+ * @param linha Buffer contendo a string.
+ * @param A Estrutura de dados Alarme_t em que será armazenada o conteudo da string.
+ * @warning A string recebida deverá ter os itens separados por tabs ('\t') e finalizados com um '\\n' na seguinte ordem: identificador, N_Serie_Equi, Ativo, Nome, N_Ativacao, Classificacao, DataCadastro(Dia, Mes, Ano),DataEntrada(Dia, Mes, Ano), DataSaida(Dia, Mes, Ano) e Descricao.
+ */
 void String2Alarme_t(char *linha, Alarme_t *A);
 /*-----------------FUNÇÕES AUXILIARES---------------------------*/
 void String2Alarme_t(char *linha, Alarme_t *A){

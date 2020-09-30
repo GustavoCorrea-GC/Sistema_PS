@@ -22,23 +22,25 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Sistema de cadastro e manupulação de alarmes relacionados a equipamentos", "index.html", [
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+  [ "Sistema de cadastro e manipulação de alarmes relacionados a equipamentos", "index.html", [
+    [ "Resumo", "index.html#autotoc_md0", null ],
+    [ "Lista de atividades futuras", "todo.html", null ],
+    [ "Estruturas de Dados", "annotated.html", [
+      [ "Estruturas de Dados", "annotated.html", "annotated_dup" ],
+      [ "Índice das Estruturas de Dados", "classes.html", null ],
+      [ "Campos de Dados", "functions.html", [
+        [ "Todos", "functions.html", null ],
+        [ "Variáveis", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+    [ "Arquivos", "files.html", [
+      [ "Lista de Arquivos", "files.html", "files_dup" ],
+      [ "Ítens globais", "globals.html", [
+        [ "Todos", "globals.html", null ],
+        [ "Funções", "globals_func.html", null ],
+        [ "Definições de Tipos", "globals_type.html", null ],
+        [ "Enumeradores", "globals_eval.html", null ],
+        [ "Definições e Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -46,8 +48,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_alarmes_8h.html"
+"_alarme_8h.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'clique para desativar a sincronização do painel';
+var SYNCOFFMSG = 'clique para ativar a sincronização do painel';

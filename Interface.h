@@ -1,139 +1,142 @@
 /**
+ * @file Interface.h
+ * @author Gustavo Correa (gustavocorrea@alunos.utfpr.edu.br)
  * @brief Arquivo contendo as funções de interface e suas funções auxiliares.
- * 
- * @file Equipamento.h
- * @author Gustavo Correa
+ * @version 0.1
  * @date 2020-09-27
+ * @copyright Copyright (c) 2020
  */
+
 /*------------------Prototipos--------------------------*/
 /**
  * @brief GetSize Obter tamanho.
  * Função que obtem a quantidade de elementos de um arquivo.
  * @param A Caminho para o arquivo que se deseja saber o tamanho.
- * @return int 
+ * @return int Retorna a quantidade de elementos que o arquivo possui.
  */
 int GetSize(char *A);
 /**
- * @brief 
+ * @brief Função de ordenação de strings em um vetor.
  * 
- * @param vetor 
- * @param inicio 
- * @param fim 
+ * @param vetor Vetor a ser ordenado.
+ * @param inicio Inicio do vetor.
+ * @param fim Fim do vetor.
  */
 void SortString(StrAlarm_t vetor[], int inicio, int fim);
 /**
- * @brief 
+ * @brief Função de ordenação de inteiros em um vetor.
  * 
- * @param vetor 
- * @param inicio 
- * @param fim 
+ * @param vetor Vetor a ser ordenado.
+ * @param inicio Inicio do vetor.
+ * @param fim Fim do vetor.
  */
 void SortInt(IntAlarm_t vetor[],int inicio, int fim);
 /**
- * @brief 
+ * @brief Função que imprime na tela todas as informações de um equipamento.
  * 
- * @param Eq 
+ * @param Eq Ponteiro para um Equipamento_t que será impresso.
  */
 void ImprimirEquipamento(Equipamento_t *Eq);
 /**
- * @brief 
+ * @brief Função que imprime toda a lista de equipamentos
  * 
  */
 void ImprimirTudoEquipamentos();
 /**
- * @brief 
+ * @brief Função que faz a atualização de um equipamento para o usuário.
  * 
  */
 void Atualiza_Equipamento();
 /**
- * @brief 
+ * @brief Função que cria/insere um equipamento na lista para o usuário.
  * 
  */
 void Criar_Equipamento();
 /**
- * @brief 
+ * @brief Função que remove um equipamento para o usuário.
  * 
  */
 void Remover_Equipamento();
 /**
- * @brief 
+ * @brief Função que pesquisa um equipamento para o usuário.
  * 
  */
 void Pesquisa_Equipamento();
 /**
- * @brief 
+ * @brief Função que imprime na tela todas as informações de um Alarme.
  * 
- * @param A 
+ * @param A Ponteiro para um Alarme_t que será impresso.
  */
 void ImprimirAlarme(Alarme_t *A);
 /**
- * @brief 
+ * @brief Função que imprime toda a lista de Alarmes.
  * 
  */
 void ImprimirTudoAlarmes();
 /**
- * @brief 
+ * @brief Função que atualiza um alarme para o usuário.
  * 
  */
 void Atualiza_Alarme();
 /**
- * @brief 
+ * @brief Função que cria/insere um novo alarme para o usuário.
  * 
  */
 void Criar_Alarme();
 /**
- * @brief 
+ * @brief Função que remove um alarme da lista para o usuario.
  * 
  */
 void Remover_Alarme();
 /**
- * @brief 
+ * @brief Função que pesquisa um alarme para o usuário.
  * 
  */
 void Pesquisar_Alarme();
 /**
- * @brief 
+ * @brief Função que imprime para o usuário um Alarme que esteja atuado.
  * 
- * @param A 
+ * @param A Ponteiro para um Alarme_t que será impresso.
  */
 void ImprimirAtuado(Alarme_t *A);
 /**
- * @brief 
+ * @brief Função que imprime todos os alarmes atuados.
  * 
  */
 void ImprimirTodosAtuados();
 /**
- * @brief 
+ * @brief Função que ativa um alarme para o usuário.
  * 
  */
 void Ativar_Alarmes();
 /**
- * @brief 
+ * @brief Função que desativa um alarme para o usuário.
  * 
  */
 void Desativar_Alarmes();
 /**
- * @brief 
+ * @brief Função que mostra de forma ordenada pela classificação a lista de alarmes.
  * 
  */
 void OrdenarClassificacao();
 /**
- * @brief 
+ * @brief Função que mostra de forma ordenada pela descrição a lista de alarmes.
+ * 
  * 
  */
 void Ordenar_Desc();
 /**
- * @brief 
+ * @brief Função que mostra de forma ordenada pela quantidade de vezes que o alarme foi atuado a lista de alarmes.
  * 
  */
 void OrdenarAtuacao();
 /**
- * @brief 
+ * @brief Função que filtra os alarmes e mostra somente aqueles que contem na descrição uma palavra que o usuário passar.
  * 
  */
 void Filtrar();
 /**
- * @brief 
+ * @brief Função que gera o menu.
  * 
  */
 void Menu();

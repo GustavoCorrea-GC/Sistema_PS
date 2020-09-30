@@ -1,57 +1,57 @@
-\hypertarget{_equipamento_8h}{}\doxysection{Equipamento.\+h File Reference}
+\hypertarget{_equipamento_8h}{}\doxysection{Referência do Arquivo Equipamento.\+h}
 \label{_equipamento_8h}\index{Equipamento.h@{Equipamento.h}}
 
 
-Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares.  
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}, suas funções de C\+R\+UD as suas funções auxiliares.  
 
 
-This graph shows which files directly or indirectly include this file\+:
-% FIG 0
-\doxysubsection*{Data Structures}
+\doxysubsection*{Estruturas de Dados}
 \begin{DoxyCompactItemize}
 \item 
 struct \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}
-\end{DoxyCompactItemize}
-\doxysubsection*{Typedefs}
+\begin{DoxyCompactList}\small\item\em Estrutura de dados para o armazenamento e manipulação de equipamentos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Definições de Tipos}
 \begin{DoxyCompactItemize}
 \item 
 typedef struct \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} \mbox{\hyperlink{_equipamento_8h_ab304619f73448114cf894670dd25d34a}{Equipamento\+\_\+t}}
-\end{DoxyCompactItemize}
-\doxysubsection*{Functions}
+\begin{DoxyCompactList}\small\item\em Estrutura de dados para o armazenamento e manipulação de equipamentos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Funções}
 \begin{DoxyCompactItemize}
 \item 
 int \mbox{\hyperlink{_equipamento_8h_ac81e4ee1287e15773dfe7e62d210993a}{Create\+Equipamento}} (\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} E)
-\item 
+\begin{DoxyCompactList}\small\item\em Cria/insere um Equipamento object. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{_equipamento_8h_ad591852e9b18ae97339e8b1851721635}{Read\+Equipamento}} (int N\+\_\+\+Serie, \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$E)
-\item 
+\begin{DoxyCompactList}\small\item\em Lê um Equipamento a partir de um N\+\_\+\+Serie e armazena em A o Equipamento encontrado. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{_equipamento_8h_ae4c044d3610ece5da6026a8a2a837930}{Update\+Equipamento}} (\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} E)
-\item 
+\begin{DoxyCompactList}\small\item\em Atualiza um Equipamento. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{_equipamento_8h_af6fc89173f09843c31c2b2d3aa055d53}{Delete\+Equipamento}} (int N\+\_\+\+Serie)
-\item 
+\begin{DoxyCompactList}\small\item\em Deleta da lista de Equipamentos um Equipamento a partir de seu N\+\_\+\+Serie. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{_equipamento_8h_af33a10e452044c45a2b0c01279a47430}{Get\+Int}} (int $\ast$i, char $\ast$linha)
-\item 
+\begin{DoxyCompactList}\small\item\em Obtem um inteiro a partir de uma string. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_equipamento_8h_a7662232d4e826e676ec12c39ac8af870}{Limpar\+\_\+buffer}} (char $\ast$buf)
-\item 
+\begin{DoxyCompactList}\small\item\em Limpa um buffer. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_equipamento_8h_a7206bd6d250d93a24615d73e4aaac6a9}{String2\+Equipamento\+\_\+t}} (char $\ast$linha, \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$Equip)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Função que converte uma string em uma estrutura de dados \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
-Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares. 
+\doxysubsection{Descrição detalhada}
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}, suas funções de C\+R\+UD as suas funções auxiliares. 
 
-Arquivo contendo as funções de interface e suas funções auxiliares.
-
-Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} e as suas funções de C\+R\+UD e suas funções auxiliares.
-
-\begin{DoxyAuthor}{Author}
-Gustavo Correa 
+\begin{DoxyAuthor}{Autor}
+Gustavo Correa (\href{mailto:gustavocorrea@alunos.utfpr.edu.br}{\texttt{ gustavocorrea@alunos.\+utfpr.\+edu.\+br}}) 
 \end{DoxyAuthor}
-\begin{DoxyDate}{Date}
+\begin{DoxyVersion}{Versão}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Data}
 2020-\/09-\/27 
 \end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2020 
+\end{DoxyCopyright}
 
 
-\doxysubsection{Typedef Documentation}
+\doxysubsection{Definições dos tipos}
 \mbox{\Hypertarget{_equipamento_8h_ab304619f73448114cf894670dd25d34a}\label{_equipamento_8h_ab304619f73448114cf894670dd25d34a}} 
 \index{Equipamento.h@{Equipamento.h}!Equipamento\_t@{Equipamento\_t}}
 \index{Equipamento\_t@{Equipamento\_t}!Equipamento.h@{Equipamento.h}}
@@ -60,72 +60,137 @@ Gustavo Correa
 
 
 
-\doxysubsection{Function Documentation}
+Estrutura de dados para o armazenamento e manipulação de equipamentos. 
+
+
+
+\doxysubsection{Funções}
 \mbox{\Hypertarget{_equipamento_8h_ac81e4ee1287e15773dfe7e62d210993a}\label{_equipamento_8h_ac81e4ee1287e15773dfe7e62d210993a}} 
 \index{Equipamento.h@{Equipamento.h}!CreateEquipamento@{CreateEquipamento}}
 \index{CreateEquipamento@{CreateEquipamento}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{CreateEquipamento()}{CreateEquipamento()}}
 {\footnotesize\ttfamily int Create\+Equipamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}}]{E }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 1
-Here is the caller graph for this function\+:
-% FIG 2
+
+
+Cria/insere um Equipamento object. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & Recebe um \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} que será inserido a lista de Equipamentos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{_equipamento_8h_af6fc89173f09843c31c2b2d3aa055d53}\label{_equipamento_8h_af6fc89173f09843c31c2b2d3aa055d53}} 
 \index{Equipamento.h@{Equipamento.h}!DeleteEquipamento@{DeleteEquipamento}}
 \index{DeleteEquipamento@{DeleteEquipamento}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{DeleteEquipamento()}{DeleteEquipamento()}}
 {\footnotesize\ttfamily int Delete\+Equipamento (\begin{DoxyParamCaption}\item[{int}]{N\+\_\+\+Serie }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 3
-Here is the caller graph for this function\+:
-% FIG 4
+
+
+Deleta da lista de Equipamentos um Equipamento a partir de seu N\+\_\+\+Serie. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em N\+\_\+\+Serie} & N\+\_\+\+Serie do Equipamento a ser removido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{_equipamento_8h_af33a10e452044c45a2b0c01279a47430}\label{_equipamento_8h_af33a10e452044c45a2b0c01279a47430}} 
 \index{Equipamento.h@{Equipamento.h}!GetInt@{GetInt}}
 \index{GetInt@{GetInt}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{GetInt()}{GetInt()}}
 {\footnotesize\ttfamily int Get\+Int (\begin{DoxyParamCaption}\item[{int $\ast$}]{i,  }\item[{char $\ast$}]{linha }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 5
-Here is the caller graph for this function\+:
-% FIG 6
+
+
+Obtem um inteiro a partir de uma string. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em i} & Contador que aponta a posição da string onde deverá ser lido o inteiro. \\
+\hline
+{\em linha} & Buffer contendo a string onde será lido o inteiro. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna o intero lido. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{_equipamento_8h_a7662232d4e826e676ec12c39ac8af870}\label{_equipamento_8h_a7662232d4e826e676ec12c39ac8af870}} 
 \index{Equipamento.h@{Equipamento.h}!Limpar\_buffer@{Limpar\_buffer}}
 \index{Limpar\_buffer@{Limpar\_buffer}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{Limpar\_buffer()}{Limpar\_buffer()}}
 {\footnotesize\ttfamily void Limpar\+\_\+buffer (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:
-% FIG 7
+
+
+Limpa um buffer. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em buf} & Buffer a ser limpo. \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{_equipamento_8h_ad591852e9b18ae97339e8b1851721635}\label{_equipamento_8h_ad591852e9b18ae97339e8b1851721635}} 
 \index{Equipamento.h@{Equipamento.h}!ReadEquipamento@{ReadEquipamento}}
 \index{ReadEquipamento@{ReadEquipamento}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{ReadEquipamento()}{ReadEquipamento()}}
 {\footnotesize\ttfamily int Read\+Equipamento (\begin{DoxyParamCaption}\item[{int}]{N\+\_\+\+Serie,  }\item[{\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$}]{E }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 8
-Here is the caller graph for this function\+:
-% FIG 9
+
+
+Lê um Equipamento a partir de um N\+\_\+\+Serie e armazena em A o Equipamento encontrado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em N\+\_\+\+Serie} & N\+\_\+\+Serie que será lido. \\
+\hline
+{\em A} & Ponteiro para um \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} onde ficará armazenado o Equipamento encontrado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{_equipamento_8h_a7206bd6d250d93a24615d73e4aaac6a9}\label{_equipamento_8h_a7206bd6d250d93a24615d73e4aaac6a9}} 
 \index{Equipamento.h@{Equipamento.h}!String2Equipamento\_t@{String2Equipamento\_t}}
 \index{String2Equipamento\_t@{String2Equipamento\_t}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{String2Equipamento\_t()}{String2Equipamento\_t()}}
 {\footnotesize\ttfamily void String2\+Equipamento\+\_\+t (\begin{DoxyParamCaption}\item[{char $\ast$}]{linha,  }\item[{\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$}]{Equip }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 10
-Here is the caller graph for this function\+:
-% FIG 11
+
+
+Função que converte uma string em uma estrutura de dados \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em linha} & Buffer contendo a string \\
+\hline
+{\em A} & Estrutura de dados \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} em que será armazenada o contêudo da string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Aviso}
+A string recebida deverá ter os itens separados por tabs (\textquotesingle{}\textbackslash{}t\textquotesingle{}) e finalizados com um \textquotesingle{}\textbackslash{}n\textquotesingle{} na seguinte ordem\+: N\+\_\+\+Serie, Nome, Tipo, Data(\+Dia, Mes e Ano) e Descrição. 
+\end{DoxyWarning}
 \mbox{\Hypertarget{_equipamento_8h_ae4c044d3610ece5da6026a8a2a837930}\label{_equipamento_8h_ae4c044d3610ece5da6026a8a2a837930}} 
 \index{Equipamento.h@{Equipamento.h}!UpdateEquipamento@{UpdateEquipamento}}
 \index{UpdateEquipamento@{UpdateEquipamento}!Equipamento.h@{Equipamento.h}}
 \doxysubsubsection{\texorpdfstring{UpdateEquipamento()}{UpdateEquipamento()}}
 {\footnotesize\ttfamily int Update\+Equipamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}}}]{E }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 12
-Here is the caller graph for this function\+:
-% FIG 13
+
+
+Atualiza um Equipamento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} que será atualizado, deve já conter todos os termos que será inseridos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}

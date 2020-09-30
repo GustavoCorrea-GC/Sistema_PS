@@ -1,119 +1,151 @@
-\hypertarget{_interface_8h}{}\doxysection{Interface.\+h File Reference}
+\hypertarget{_interface_8h}{}\doxysection{Referência do Arquivo Interface.\+h}
 \label{_interface_8h}\index{Interface.h@{Interface.h}}
-This graph shows which files directly or indirectly include this file\+:
-% FIG 0
-\doxysubsection*{Functions}
+
+
+Arquivo contendo as funções de interface e suas funções auxiliares.  
+
+
+\doxysubsection*{Funções}
 \begin{DoxyCompactItemize}
 \item 
 int \mbox{\hyperlink{_interface_8h_a239e0f791a6b075382f61bc28887be6c}{Get\+Size}} (char $\ast$A)
 \begin{DoxyCompactList}\small\item\em Get\+Size Obter tamanho. Função que obtem a quantidade de elementos de um arquivo. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a45d1b05ac406447adaca6d3c2a2ffa16}{Sort\+String}} (\mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}} vetor\mbox{[}$\,$\mbox{]}, int inicio, int fim)
-\item 
+\begin{DoxyCompactList}\small\item\em Função de ordenação de strings em um vetor. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a1e3b40207f1f4eb8a00be6709314c74a}{Sort\+Int}} (\mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}} vetor\mbox{[}$\,$\mbox{]}, int inicio, int fim)
-\item 
+\begin{DoxyCompactList}\small\item\em Função de ordenação de inteiros em um vetor. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a757b1ca299c4323a16816e77983c20bf}{Imprimir\+Equipamento}} (\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$Eq)
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime na tela todas as informações de um equipamento. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_ae838cddc8c2cfeb729f11f1c0487dd40}{Imprimir\+Tudo\+Equipamentos}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime toda a lista de equipamentos. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_aaa354c57bfc2baab00c9de9973c46c0c}{Atualiza\+\_\+\+Equipamento}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que faz a atualização de um equipamento para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a85ffbc45eb748b2768abf04cf01b9075}{Criar\+\_\+\+Equipamento}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que cria/insere um equipamento na lista para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a12a15837cbfb35212139743228210559}{Remover\+\_\+\+Equipamento}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que remove um equipamento para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a0c3b567a6858c3a921c52bd105e6f459}{Pesquisa\+\_\+\+Equipamento}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que pesquisa um equipamento para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a0aa376d9e2269685fde7751cc5be7a78}{Imprimir\+Alarme}} (\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$A)
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime na tela todas as informações de um Alarme. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_ac0f2cace3d9d25894aa4cdc4eb0b789a}{Imprimir\+Tudo\+Alarmes}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime toda a lista de Alarmes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_ae3e37e58cf3e6e35070f661231d743e2}{Atualiza\+\_\+\+Alarme}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que atualiza um alarme para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a7070744125871fc31fbfd82fd1ea069d}{Criar\+\_\+\+Alarme}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que cria/insere um novo alarme para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_ab23e81c6482825f64c8bdfe510ce539b}{Remover\+\_\+\+Alarme}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que remove um alarme da lista para o usuario. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a6f0ac9134e78977e239bccf7549a166d}{Pesquisar\+\_\+\+Alarme}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que pesquisa um alarme para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_aa0105c99219476ae45e1e5fc588e1bb7}{Imprimir\+Atuado}} (\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$A)
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime para o usuário um Alarme que esteja atuado. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a4f87a2e428d129a41c2b3210a0cfd0a1}{Imprimir\+Todos\+Atuados}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que imprime todos os alarmes atuados. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a2f6f0cff496d5de99728095bcb99fecf}{Ativar\+\_\+\+Alarmes}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que ativa um alarme para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_aada3e1b361195dfccd11556ab395e5c7}{Desativar\+\_\+\+Alarmes}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que desativa um alarme para o usuário. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a82ce2e582151fa33a2c61ee33ea69f7a}{Ordenar\+Classificacao}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que mostra de forma ordenada pela classificação a lista de alarmes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_addaae7aff1ab279068e7c54ee6db3dd0}{Ordenar\+\_\+\+Desc}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que mostra de forma ordenada pela descrição a lista de alarmes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a30ff931217679941067b6eb39586c2c0}{Ordenar\+Atuacao}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que mostra de forma ordenada pela quantidade de vezes que o alarme foi atuado a lista de alarmes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_a3c08cd667b8e1715efb916eefcaec920}{Filtrar}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Função que filtra os alarmes e mostra somente aqueles que contem na descrição uma palavra que o usuário passar. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{_interface_8h_afdf1ca9e7afc3e7ec41b47fea4b3d80d}{Menu}} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Função que gera o menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Function Documentation}
+\doxysubsection{Descrição detalhada}
+Arquivo contendo as funções de interface e suas funções auxiliares. 
+
+\begin{DoxyAuthor}{Autor}
+Gustavo Correa (\href{mailto:gustavocorrea@alunos.utfpr.edu.br}{\texttt{ gustavocorrea@alunos.\+utfpr.\+edu.\+br}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versão}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Data}
+2020-\/09-\/27 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2020 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Funções}
 \mbox{\Hypertarget{_interface_8h_a2f6f0cff496d5de99728095bcb99fecf}\label{_interface_8h_a2f6f0cff496d5de99728095bcb99fecf}} 
 \index{Interface.h@{Interface.h}!Ativar\_Alarmes@{Ativar\_Alarmes}}
 \index{Ativar\_Alarmes@{Ativar\_Alarmes}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Ativar\_Alarmes()}{Ativar\_Alarmes()}}
 {\footnotesize\ttfamily void Ativar\+\_\+\+Alarmes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 1
+
+
+Função que ativa um alarme para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_ae3e37e58cf3e6e35070f661231d743e2}\label{_interface_8h_ae3e37e58cf3e6e35070f661231d743e2}} 
 \index{Interface.h@{Interface.h}!Atualiza\_Alarme@{Atualiza\_Alarme}}
 \index{Atualiza\_Alarme@{Atualiza\_Alarme}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Atualiza\_Alarme()}{Atualiza\_Alarme()}}
 {\footnotesize\ttfamily void Atualiza\+\_\+\+Alarme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 2
+
+
+Função que atualiza um alarme para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_aaa354c57bfc2baab00c9de9973c46c0c}\label{_interface_8h_aaa354c57bfc2baab00c9de9973c46c0c}} 
 \index{Interface.h@{Interface.h}!Atualiza\_Equipamento@{Atualiza\_Equipamento}}
 \index{Atualiza\_Equipamento@{Atualiza\_Equipamento}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Atualiza\_Equipamento()}{Atualiza\_Equipamento()}}
 {\footnotesize\ttfamily void Atualiza\+\_\+\+Equipamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 3
+
+
+Função que faz a atualização de um equipamento para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_a7070744125871fc31fbfd82fd1ea069d}\label{_interface_8h_a7070744125871fc31fbfd82fd1ea069d}} 
 \index{Interface.h@{Interface.h}!Criar\_Alarme@{Criar\_Alarme}}
 \index{Criar\_Alarme@{Criar\_Alarme}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Criar\_Alarme()}{Criar\_Alarme()}}
 {\footnotesize\ttfamily void Criar\+\_\+\+Alarme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 4
+
+
+Função que cria/insere um novo alarme para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_a85ffbc45eb748b2768abf04cf01b9075}\label{_interface_8h_a85ffbc45eb748b2768abf04cf01b9075}} 
 \index{Interface.h@{Interface.h}!Criar\_Equipamento@{Criar\_Equipamento}}
 \index{Criar\_Equipamento@{Criar\_Equipamento}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Criar\_Equipamento()}{Criar\_Equipamento()}}
 {\footnotesize\ttfamily void Criar\+\_\+\+Equipamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 5
+
+
+Função que cria/insere um equipamento na lista para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_aada3e1b361195dfccd11556ab395e5c7}\label{_interface_8h_aada3e1b361195dfccd11556ab395e5c7}} 
 \index{Interface.h@{Interface.h}!Desativar\_Alarmes@{Desativar\_Alarmes}}
 \index{Desativar\_Alarmes@{Desativar\_Alarmes}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Desativar\_Alarmes()}{Desativar\_Alarmes()}}
 {\footnotesize\ttfamily void Desativar\+\_\+\+Alarmes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 6
+
+
+Função que desativa um alarme para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_a3c08cd667b8e1715efb916eefcaec920}\label{_interface_8h_a3c08cd667b8e1715efb916eefcaec920}} 
 \index{Interface.h@{Interface.h}!Filtrar@{Filtrar}}
 \index{Filtrar@{Filtrar}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Filtrar()}{Filtrar()}}
 {\footnotesize\ttfamily void Filtrar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 7
-Here is the caller graph for this function\+:
-% FIG 8
+
+
+Função que filtra os alarmes e mostra somente aqueles que contem na descrição uma palavra que o usuário passar. 
+
 \mbox{\Hypertarget{_interface_8h_a239e0f791a6b075382f61bc28887be6c}\label{_interface_8h_a239e0f791a6b075382f61bc28887be6c}} 
 \index{Interface.h@{Interface.h}!GetSize@{GetSize}}
 \index{GetSize@{GetSize}!Interface.h@{Interface.h}}
@@ -125,15 +157,13 @@ Here is the caller graph for this function\+:
 Get\+Size Obter tamanho. Função que obtem a quantidade de elementos de um arquivo. 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parâmetros}
 {\em A} & Caminho para o arquivo que se deseja saber o tamanho. \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-int 
+\begin{DoxyReturn}{Retorna}
+int Retorna a quantidade de elementos que o arquivo possui. 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:
-% FIG 9
 \mbox{\Hypertarget{_interface_8h_a0aa376d9e2269685fde7751cc5be7a78}\label{_interface_8h_a0aa376d9e2269685fde7751cc5be7a78}} 
 \index{Interface.h@{Interface.h}!ImprimirAlarme@{ImprimirAlarme}}
 \index{ImprimirAlarme@{ImprimirAlarme}!Interface.h@{Interface.h}}
@@ -141,12 +171,14 @@ Here is the caller graph for this function\+:
 {\footnotesize\ttfamily void Imprimir\+Alarme (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
 
 
-\begin{DoxyParams}{Parameters}
-{\em A} & \\
+
+Função que imprime na tela todas as informações de um Alarme. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & Ponteiro para um \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} que será impresso. \\
 \hline
 \end{DoxyParams}
-Here is the caller graph for this function\+:
-% FIG 10
 \mbox{\Hypertarget{_interface_8h_aa0105c99219476ae45e1e5fc588e1bb7}\label{_interface_8h_aa0105c99219476ae45e1e5fc588e1bb7}} 
 \index{Interface.h@{Interface.h}!ImprimirAtuado@{ImprimirAtuado}}
 \index{ImprimirAtuado@{ImprimirAtuado}!Interface.h@{Interface.h}}
@@ -154,14 +186,14 @@ Here is the caller graph for this function\+:
 {\footnotesize\ttfamily void Imprimir\+Atuado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
 
 
-\begin{DoxyParams}{Parameters}
-{\em A} & \\
+
+Função que imprime para o usuário um Alarme que esteja atuado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & Ponteiro para um \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} que será impresso. \\
 \hline
 \end{DoxyParams}
-Here is the call graph for this function\+:
-% FIG 11
-Here is the caller graph for this function\+:
-% FIG 12
 \mbox{\Hypertarget{_interface_8h_a757b1ca299c4323a16816e77983c20bf}\label{_interface_8h_a757b1ca299c4323a16816e77983c20bf}} 
 \index{Interface.h@{Interface.h}!ImprimirEquipamento@{ImprimirEquipamento}}
 \index{ImprimirEquipamento@{ImprimirEquipamento}!Interface.h@{Interface.h}}
@@ -169,47 +201,53 @@ Here is the caller graph for this function\+:
 {\footnotesize\ttfamily void Imprimir\+Equipamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} $\ast$}]{Eq }\end{DoxyParamCaption})}
 
 
-\begin{DoxyParams}{Parameters}
-{\em Eq} & \\
+
+Função que imprime na tela todas as informações de um equipamento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em Eq} & Ponteiro para um \mbox{\hyperlink{struct_equipamento__t}{Equipamento\+\_\+t}} que será impresso. \\
 \hline
 \end{DoxyParams}
-Here is the caller graph for this function\+:
-% FIG 13
 \mbox{\Hypertarget{_interface_8h_a4f87a2e428d129a41c2b3210a0cfd0a1}\label{_interface_8h_a4f87a2e428d129a41c2b3210a0cfd0a1}} 
 \index{Interface.h@{Interface.h}!ImprimirTodosAtuados@{ImprimirTodosAtuados}}
 \index{ImprimirTodosAtuados@{ImprimirTodosAtuados}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{ImprimirTodosAtuados()}{ImprimirTodosAtuados()}}
 {\footnotesize\ttfamily void Imprimir\+Todos\+Atuados (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 14
-Here is the caller graph for this function\+:
-% FIG 15
+
+
+Função que imprime todos os alarmes atuados. 
+
 \mbox{\Hypertarget{_interface_8h_ac0f2cace3d9d25894aa4cdc4eb0b789a}\label{_interface_8h_ac0f2cace3d9d25894aa4cdc4eb0b789a}} 
 \index{Interface.h@{Interface.h}!ImprimirTudoAlarmes@{ImprimirTudoAlarmes}}
 \index{ImprimirTudoAlarmes@{ImprimirTudoAlarmes}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{ImprimirTudoAlarmes()}{ImprimirTudoAlarmes()}}
 {\footnotesize\ttfamily void Imprimir\+Tudo\+Alarmes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 16
-Here is the caller graph for this function\+:
-% FIG 17
+
+
+Função que imprime toda a lista de Alarmes. 
+
 \mbox{\Hypertarget{_interface_8h_ae838cddc8c2cfeb729f11f1c0487dd40}\label{_interface_8h_ae838cddc8c2cfeb729f11f1c0487dd40}} 
 \index{Interface.h@{Interface.h}!ImprimirTudoEquipamentos@{ImprimirTudoEquipamentos}}
 \index{ImprimirTudoEquipamentos@{ImprimirTudoEquipamentos}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{ImprimirTudoEquipamentos()}{ImprimirTudoEquipamentos()}}
 {\footnotesize\ttfamily void Imprimir\+Tudo\+Equipamentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 18
-Here is the caller graph for this function\+:
-% FIG 19
+
+
+Função que imprime toda a lista de equipamentos. 
+
 \mbox{\Hypertarget{_interface_8h_afdf1ca9e7afc3e7ec41b47fea4b3d80d}\label{_interface_8h_afdf1ca9e7afc3e7ec41b47fea4b3d80d}} 
 \index{Interface.h@{Interface.h}!Menu@{Menu}}
 \index{Menu@{Menu}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Menu()}{Menu()}}
 {\footnotesize\ttfamily void Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função que gera o menu. 
 
 \mbox{\Hypertarget{_interface_8h_addaae7aff1ab279068e7c54ee6db3dd0}\label{_interface_8h_addaae7aff1ab279068e7c54ee6db3dd0}} 
 \index{Interface.h@{Interface.h}!Ordenar\_Desc@{Ordenar\_Desc}}
@@ -217,60 +255,70 @@ Here is the caller graph for this function\+:
 \doxysubsubsection{\texorpdfstring{Ordenar\_Desc()}{Ordenar\_Desc()}}
 {\footnotesize\ttfamily void Ordenar\+\_\+\+Desc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 20
-Here is the caller graph for this function\+:
-% FIG 21
+
+
+Função que mostra de forma ordenada pela descrição a lista de alarmes. 
+
 \mbox{\Hypertarget{_interface_8h_a30ff931217679941067b6eb39586c2c0}\label{_interface_8h_a30ff931217679941067b6eb39586c2c0}} 
 \index{Interface.h@{Interface.h}!OrdenarAtuacao@{OrdenarAtuacao}}
 \index{OrdenarAtuacao@{OrdenarAtuacao}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{OrdenarAtuacao()}{OrdenarAtuacao()}}
 {\footnotesize\ttfamily void Ordenar\+Atuacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 22
-Here is the caller graph for this function\+:
-% FIG 23
+
+
+Função que mostra de forma ordenada pela quantidade de vezes que o alarme foi atuado a lista de alarmes. 
+
 \mbox{\Hypertarget{_interface_8h_a82ce2e582151fa33a2c61ee33ea69f7a}\label{_interface_8h_a82ce2e582151fa33a2c61ee33ea69f7a}} 
 \index{Interface.h@{Interface.h}!OrdenarClassificacao@{OrdenarClassificacao}}
 \index{OrdenarClassificacao@{OrdenarClassificacao}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{OrdenarClassificacao()}{OrdenarClassificacao()}}
 {\footnotesize\ttfamily void Ordenar\+Classificacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 24
+
+
+Função que mostra de forma ordenada pela classificação a lista de alarmes. 
+
 \mbox{\Hypertarget{_interface_8h_a0c3b567a6858c3a921c52bd105e6f459}\label{_interface_8h_a0c3b567a6858c3a921c52bd105e6f459}} 
 \index{Interface.h@{Interface.h}!Pesquisa\_Equipamento@{Pesquisa\_Equipamento}}
 \index{Pesquisa\_Equipamento@{Pesquisa\_Equipamento}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Pesquisa\_Equipamento()}{Pesquisa\_Equipamento()}}
 {\footnotesize\ttfamily void Pesquisa\+\_\+\+Equipamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 25
+
+
+Função que pesquisa um equipamento para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_a6f0ac9134e78977e239bccf7549a166d}\label{_interface_8h_a6f0ac9134e78977e239bccf7549a166d}} 
 \index{Interface.h@{Interface.h}!Pesquisar\_Alarme@{Pesquisar\_Alarme}}
 \index{Pesquisar\_Alarme@{Pesquisar\_Alarme}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Pesquisar\_Alarme()}{Pesquisar\_Alarme()}}
 {\footnotesize\ttfamily void Pesquisar\+\_\+\+Alarme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 26
+
+
+Função que pesquisa um alarme para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_ab23e81c6482825f64c8bdfe510ce539b}\label{_interface_8h_ab23e81c6482825f64c8bdfe510ce539b}} 
 \index{Interface.h@{Interface.h}!Remover\_Alarme@{Remover\_Alarme}}
 \index{Remover\_Alarme@{Remover\_Alarme}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Remover\_Alarme()}{Remover\_Alarme()}}
 {\footnotesize\ttfamily void Remover\+\_\+\+Alarme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 27
+
+
+Função que remove um alarme da lista para o usuario. 
+
 \mbox{\Hypertarget{_interface_8h_a12a15837cbfb35212139743228210559}\label{_interface_8h_a12a15837cbfb35212139743228210559}} 
 \index{Interface.h@{Interface.h}!Remover\_Equipamento@{Remover\_Equipamento}}
 \index{Remover\_Equipamento@{Remover\_Equipamento}!Interface.h@{Interface.h}}
 \doxysubsubsection{\texorpdfstring{Remover\_Equipamento()}{Remover\_Equipamento()}}
 {\footnotesize\ttfamily void Remover\+\_\+\+Equipamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:
-% FIG 28
+
+
+Função que remove um equipamento para o usuário. 
+
 \mbox{\Hypertarget{_interface_8h_a1e3b40207f1f4eb8a00be6709314c74a}\label{_interface_8h_a1e3b40207f1f4eb8a00be6709314c74a}} 
 \index{Interface.h@{Interface.h}!SortInt@{SortInt}}
 \index{SortInt@{SortInt}!Interface.h@{Interface.h}}
@@ -278,16 +326,18 @@ Here is the call graph for this function\+:
 {\footnotesize\ttfamily void Sort\+Int (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_int_alarm__t}{Int\+Alarm\+\_\+t}}}]{vetor\mbox{[}$\,$\mbox{]},  }\item[{int}]{inicio,  }\item[{int}]{fim }\end{DoxyParamCaption})}
 
 
-\begin{DoxyParams}{Parameters}
-{\em vetor} & \\
+
+Função de ordenação de inteiros em um vetor. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em vetor} & Vetor a ser ordenado. \\
 \hline
-{\em inicio} & \\
+{\em inicio} & Inicio do vetor. \\
 \hline
-{\em fim} & \\
+{\em fim} & Fim do vetor. \\
 \hline
 \end{DoxyParams}
-Here is the caller graph for this function\+:
-% FIG 29
 \mbox{\Hypertarget{_interface_8h_a45d1b05ac406447adaca6d3c2a2ffa16}\label{_interface_8h_a45d1b05ac406447adaca6d3c2a2ffa16}} 
 \index{Interface.h@{Interface.h}!SortString@{SortString}}
 \index{SortString@{SortString}!Interface.h@{Interface.h}}
@@ -295,13 +345,15 @@ Here is the caller graph for this function\+:
 {\footnotesize\ttfamily void Sort\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_str_alarm__t}{Str\+Alarm\+\_\+t}}}]{vetor\mbox{[}$\,$\mbox{]},  }\item[{int}]{inicio,  }\item[{int}]{fim }\end{DoxyParamCaption})}
 
 
-\begin{DoxyParams}{Parameters}
-{\em vetor} & \\
+
+Função de ordenação de strings em um vetor. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em vetor} & Vetor a ser ordenado. \\
 \hline
-{\em inicio} & \\
+{\em inicio} & Inicio do vetor. \\
 \hline
-{\em fim} & \\
+{\em fim} & Fim do vetor. \\
 \hline
 \end{DoxyParams}
-Here is the caller graph for this function\+:
-% FIG 30

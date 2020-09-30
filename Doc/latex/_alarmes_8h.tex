@@ -1,3 +1,139 @@
-\hypertarget{_alarmes_8h}{}\doxysection{Alarmes.\+h File Reference}
+\hypertarget{_alarmes_8h}{}\doxysection{Referência do Arquivo Alarmes.\+h}
 \label{_alarmes_8h}\index{Alarmes.h@{Alarmes.h}}
-This graph shows which files directly or indirectly include this file\+:
+
+
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}, as suas funções de C\+R\+UD e suas funções auxiliares.  
+
+
+\doxysubsection*{Estruturas de Dados}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Estrutura de dados para o armazenamento e manipulação de alarmes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}{Create\+Alarme}} (\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} A)
+\begin{DoxyCompactList}\small\item\em Cria/insere um Alarme object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_alarmes_8h_ae902698da61e7dadccfd319f5f55b39a}{Read\+Alarme}} (int Identificador, \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Lê um alarme a partir de um identificador e armazena em A o alarme encontrado. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_alarmes_8h_a935fde5a6fbc72e946c9a8199468d080}{Update\+Alarme}} (\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} A)
+\begin{DoxyCompactList}\small\item\em Atualiza um alarme. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_alarmes_8h_a25b1300b2c90d1e4188426f3b30fceb6}{Delete\+Alarme}} (int Identificador)
+\begin{DoxyCompactList}\small\item\em Deleta da lista de alarmes um alarme a partir de seu identificador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}{String2\+Alarme\+\_\+t}} (char $\ast$linha, \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Função que converte uma string em uma estrutura de dados \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Arquivo contendo o tipo de dado \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}, as suas funções de C\+R\+UD e suas funções auxiliares. 
+
+\begin{DoxyAuthor}{Autor}
+Gustavo Correa (\href{mailto:gustavocorrea@alunos.utfpr.edu.br}{\texttt{ gustavocorrea@alunos.\+utfpr.\+edu.\+br}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versão}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Data}
+2020-\/09-\/27 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2020 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}\label{_alarmes_8h_a579cc6b41cc01dc70037df44d295fa8e}} 
+\index{Alarmes.h@{Alarmes.h}!CreateAlarme@{CreateAlarme}}
+\index{CreateAlarme@{CreateAlarme}!Alarmes.h@{Alarmes.h}}
+\doxysubsubsection{\texorpdfstring{CreateAlarme()}{CreateAlarme()}}
+{\footnotesize\ttfamily int Create\+Alarme (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}}]{A }\end{DoxyParamCaption})}
+
+
+
+Cria/insere um Alarme object. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & Recebe um \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} que será inserido a lista de alarmes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_alarmes_8h_a25b1300b2c90d1e4188426f3b30fceb6}\label{_alarmes_8h_a25b1300b2c90d1e4188426f3b30fceb6}} 
+\index{Alarmes.h@{Alarmes.h}!DeleteAlarme@{DeleteAlarme}}
+\index{DeleteAlarme@{DeleteAlarme}!Alarmes.h@{Alarmes.h}}
+\doxysubsubsection{\texorpdfstring{DeleteAlarme()}{DeleteAlarme()}}
+{\footnotesize\ttfamily int Delete\+Alarme (\begin{DoxyParamCaption}\item[{int}]{Identificador }\end{DoxyParamCaption})}
+
+
+
+Deleta da lista de alarmes um alarme a partir de seu identificador. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em Identificador} & Identificador do alarme a ser removido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_alarmes_8h_ae902698da61e7dadccfd319f5f55b39a}\label{_alarmes_8h_ae902698da61e7dadccfd319f5f55b39a}} 
+\index{Alarmes.h@{Alarmes.h}!ReadAlarme@{ReadAlarme}}
+\index{ReadAlarme@{ReadAlarme}!Alarmes.h@{Alarmes.h}}
+\doxysubsubsection{\texorpdfstring{ReadAlarme()}{ReadAlarme()}}
+{\footnotesize\ttfamily int Read\+Alarme (\begin{DoxyParamCaption}\item[{int}]{Identificador,  }\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
+
+
+
+Lê um alarme a partir de um identificador e armazena em A o alarme encontrado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em Identificador} & Identificador que será lido. \\
+\hline
+{\em A} & Ponteiro para um \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} onde ficará armazenado o alarme encontrado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}\label{_alarmes_8h_ad1390ee930b2bbd803c3211f6dec8045}} 
+\index{Alarmes.h@{Alarmes.h}!String2Alarme\_t@{String2Alarme\_t}}
+\index{String2Alarme\_t@{String2Alarme\_t}!Alarmes.h@{Alarmes.h}}
+\doxysubsubsection{\texorpdfstring{String2Alarme\_t()}{String2Alarme\_t()}}
+{\footnotesize\ttfamily void String2\+Alarme\+\_\+t (\begin{DoxyParamCaption}\item[{char $\ast$}]{linha,  }\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} $\ast$}]{A }\end{DoxyParamCaption})}
+
+
+
+Função que converte uma string em uma estrutura de dados \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em linha} & Buffer contendo a string. \\
+\hline
+{\em A} & Estrutura de dados \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} em que será armazenada o contêudo da string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Aviso}
+A string recebida deverá ter os itens separados por tabs (\textquotesingle{}\textbackslash{}t\textquotesingle{}) e finalizados com um \textquotesingle{}\textbackslash{}n\textquotesingle{} na seguinte ordem\+: identificador, N\+\_\+\+Serie\+\_\+\+Equi, Ativo, Nome, N\+\_\+\+Ativacao, Classificacao, Data\+Cadastro(\+Dia, Mes, Ano),Data\+Entrada(\+Dia, Mes, Ano), Data\+Saida(\+Dia, Mes, Ano) e Descrição. 
+\end{DoxyWarning}
+\mbox{\Hypertarget{_alarmes_8h_a935fde5a6fbc72e946c9a8199468d080}\label{_alarmes_8h_a935fde5a6fbc72e946c9a8199468d080}} 
+\index{Alarmes.h@{Alarmes.h}!UpdateAlarme@{UpdateAlarme}}
+\index{UpdateAlarme@{UpdateAlarme}!Alarmes.h@{Alarmes.h}}
+\doxysubsubsection{\texorpdfstring{UpdateAlarme()}{UpdateAlarme()}}
+{\footnotesize\ttfamily int Update\+Alarme (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}}}]{A }\end{DoxyParamCaption})}
+
+
+
+Atualiza um alarme. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & \mbox{\hyperlink{struct_alarme__t}{Alarme\+\_\+t}} que será atualizado, deve já conter todos os termos que será inseridos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+int Retorna T\+R\+UE no caso de sucesso e F\+A\+L\+SE em caso de falha. 
+\end{DoxyReturn}

@@ -1,28 +1,76 @@
 /**
- * @brief Arquivo contendo o tipo de dado Equipamento_t e as
- * suas funções de CRUD e suas funções auxiliares.
- * 
  * @file Equipamento.h
- * @author Gustavo Correa
+ * @author Gustavo Correa (gustavocorrea@alunos.utfpr.edu.br)
+ * @brief Arquivo contendo o tipo de dado Equipamento_t, suas funções de CRUD as suas funções auxiliares.
+ * @version 0.1
  * @date 2020-09-27
+ * @copyright Copyright (c) 2020
  */
 
+/**
+ * @brief Estrutura de dados para o armazenamento e manipulação de equipamentos.
+ * 
+ */
 typedef struct Equipamento_t{
-    char Nome[NOME_MAX];
-    int N_Serie;
-    int Tipo;
-    Data_t Data;               //TODO: Adicionar a time.h
-    char Descricao[DESC_MAX];
+    char Nome[NOME_MAX];            /**< String contendo o nome do equipamento. */
+    int N_Serie;                    /**< Inteiro contendo o número de serie do equipamento.*/
+    int Tipo;                       /**< Inteiro contendo o tipo do equipamento. (TENSAO:1 CORRENTE:2 OLEO:3)*/
+    Data_t Data;                    /**< Date_t contendo a data em que o equipamento foi cadastrado. */
+    char Descricao[DESC_MAX];       /**< String contendo a descrição do equipamento.*/
     
 } Equipamento_t;
 
 /*-----------------PROTÓTIPOS---------------------------*/
+/**
+ * @brief Cria/insere um Equipamento object.
+ * 
+ * @param A Recebe um Equipamento_t que será inserido a lista de Equipamentos.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int CreateEquipamento(Equipamento_t E);
+/**
+ * @brief Lê um Equipamento a partir de um N_Serie e armazena em A o Equipamento encontrado.
+ * 
+ * @param N_Serie N_Serie que será lido.
+ * @param A Ponteiro para um Equipamento_t onde ficará armazenado o Equipamento encontrado.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int ReadEquipamento(int N_Serie, Equipamento_t *E);
+/**
+ * @brief Atualiza um Equipamento.
+ * 
+ * @param A Equipamento_t que será atualizado, deve já conter todos os termos que será inseridos.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int UpdateEquipamento(Equipamento_t E);
+/**
+ * @brief Deleta da lista de Equipamentos um Equipamento a partir de seu N_Serie.
+ * 
+ * @param N_Serie N_Serie do Equipamento a ser removido.
+ * @return int Retorna TRUE no caso de sucesso e FALSE em caso de falha.
+ */
 int DeleteEquipamento(int N_Serie);
+/**
+ * @brief Obtem um inteiro a partir de uma string.
+ * 
+ * @param i Contador que aponta a posição da string onde deverá ser lido o inteiro.
+ * @param linha Buffer contendo a string onde será lido o inteiro.
+ * @return int Retorna o intero lido.
+ */
 int GetInt(int *i, char *linha);
+/**
+ * @brief Limpa um buffer.
+ * 
+ * @param buf Buffer a ser limpo.
+ */
 void Limpar_buffer(char *buf);
+/**
+ * @brief Função que converte uma string em uma estrutura de dados Equipamento_t.
+ * 
+ * @param linha Buffer contendo a string
+ * @param A Estrutura de dados Equipamento_t em que será armazenada o contêudo da string.
+ * @warning A string recebida deverá ter os itens separados por tabs ('\t') e finalizados com um '\\n' na seguinte ordem: N_Serie, Nome, Tipo, Data(Dia, Mes e Ano) e Descrição.
+ */
 void String2Equipamento_t(char *linha, Equipamento_t *Equip);
 /*-----------------FUNÇÕES AUXILIARES---------------------------*/
 void Limpar_buffer(char *buf){
